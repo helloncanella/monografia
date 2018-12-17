@@ -1,12 +1,28 @@
 
 sO MANY OF THE IMPORTANT PROBLEMS THAT WE FACE TODAY ARE COMPLEX, INVOLVING MULTIPLE VARIABLES, NUMEROUS DIRECT AND INDIRECT EFFECTS, AND ARE COMPRISED OF MANY, INTERDE- PENDENT PARTS. 
 
-Múltiplos problemas com quais lidamos atualmente envolvem um conjunto numeroso de componentes que se inter-conectam e inter-relacionam. A habilidade de concebê-los sob essa perspectivas configura o que se denomina como ``pensamento sistêmico'', e se diferencia essencialmente das formas de análise tradicional, com as quais os comportamentos individuais das partes são tomadas como simples agregadores do todo. Assim, surge a noção de que certas propriedades resultantes não podem ser explicadas sem que sejam considerados a atividade integral do sistema. 
+Múltiplos problemas com quais lidamos atualmente envolvem um conjunto numeroso de componentes que se inter-conectam e inter-relacionam. 
+
+A habilidade de concebê-los sob essa perspectiva configura o que se denomina como ``pensamento sistêmico'', e se diferencia essencialmente das formas de análise tradicional, com as quais os comportamentos individuais das partes são tomadas como simples agregadores do todo. Assim, surge a noção de que certas propriedades resultantes não podem ser explicadas sem que sejam considerados a atividade integral do sistema. 
+
+No contexto de uma sociedade em que a disponibilidade de dados é abundante - onde expressões como \textit{big data} ganham força - emergem métodos de análise suportados pela premissa de que sistemas devem ser estudados, investigados, e entendidos no seu conjunto, e não em função das suas partes.
+
+Essa concepção não é essencialmente nova. Esse fato é exemplificado por alguns modelos e conceitos científicos, existentes há décadas, cuja formulação tem a perspectiva sistêmica como referencial. Alguns bons exemplos incluem a seleção e dinâmica populacional em ecologia, o sistema respiratório humano, e a lei dos gases ideais, originários da física e química \cite{Weintrop2016}.
+
+\citeonline{Weintrop2016} sinaliza que embora os aspectos do pensamento computacional apresentados até aqui por sua taxonomia não estejam diretamente associados a noção de pensamento sistêmico, ferramentas computacionais constituem um meio poderoso para tornar essas ideias acessíveis a seus aprendizes.
 
 
-No contexto de uma sociedade em que a disponibilidade de dados é abundante - onde expressões como \textit{big data} ganham força - emergem métodos de análise suportados pela premissa que sistemas devem ser estudados, investigados, e entendidos no seu conjunto, e não em função das suas partes.
 
-De fato, muitos dos conceitos e modelos e físicos, existentes há décadas, estão estruturado pela compreendidos através
+
+
+
+
+
+
+Embora os aspectos do pensamento computacional apresentados até aqui não estejam diretamente 
+
+
+GOOD EXAMPLES INCLUDE NATURAL SELECTION AND POPULATION DYNAMICS IN ECOLOGY, THE HUMAN RESPIRATORY SYSTEM FROM BIOLOGY, AND THE IDEAL GAS LAWS IN CHEMISTRY AND PHYSICS (hMELO ET AL. 2000; sTIEFF AND wILENSKY 2003; wILENSKY AND rEISMAN 2006). 
 
 
 
