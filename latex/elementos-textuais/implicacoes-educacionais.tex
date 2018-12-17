@@ -1,0 +1,421 @@
+\chapter{Implicações para aprendizagem científica}
+
+O desenvolvimento da computação e o amadurecimento da noção de pensamento computacional traz consigo várias implicações e oportunidades educacionais.
+
+De partida, pode-se dizer que a efetivação do uso do computador como ferramenta para resolução de problemas exige a formação de capital humano. Normalmente, espera-se que estudantes tenham acesso à universidade para introdução das primeiras noções de programação e ciência da computação. Sabe-se contudo que eles se mostram cada vez familiarizados com \textit{smartphones} e outros dispositivo computacionais. Por isso podemos nos perguntar: por que não antecipar essa instrumentalização? 
+
+Esse questionamento se torna ainda mais pertinente em face do percentual reduzido de portadores de grau universitário. A demanda por profissionais com experiência na resolução de problemas computacionais tem crescido numa proporção superior a que academia tem formado. Esse desequilíbrio tem levado grandes empresas de tecnologia como o Google e IBM a dispensar a formação universitária como pre-requisito para contratação \cite{Purtill}.
+
+A motivação para essa antecipação não é apenas de caráter laboral. Como discutiremos ao longo desse capítulo o uso de computadores e do pensamento computacional oferece excelentes contextos para desenvolvimento de competências científicas. O reverso também é verdadeiro: problemas científicos e matemáticos são domínios excelentes para a aplicação e exercício do pensamento computacional. É nessa tese que esse trabalho se apoia. 
+
+No capítulo \ref{pensamento-computacional} mostramos o como conceitos de abstração, decomposição de problemas e simulação, aliados a praticas de representação de problemas se estruturam em torno do pensamento computacional. Ao mesmo tempo que são centrais na ciência do computação, estes elementos também são fundamentais para o desenvolvimento de modelos e para a compreensão e resolução de problemas num largo espectro de disciplinas matemáticas e científicas \cite{Sengupta2013}.
+
+% Soloway argumenta que aprender a programar corresponde a aprender construir mecanismos e explicações. Portanto a capacidade de construir modelos computacionais por programação corresponde a 
+
+A literatura tem demonstrado de diversas formas o como a aprendizagem de programação - uma das praticas de representação - em conjunto com conceitos de outros domínios pode ser mais fácil do que aprender cada um desses tópicos individualmente. Essa abordagem é destacadamente diferente da forma como o ensino de computação tem sido trabalhado no ambiente escolar, onde as atividades propostas focam em aspectos apartados da realidade.
+
+Em um estudo citado por \citeonline{Weintrop2016}, descobriu-se que a introdução de programação no contexto da modelagem de fenômenos físicos e químicos, durante as atividades de alunos de graduação, resultaram no aprendizado mais efetivo de programação, e no aumento do engajamento com a área de domínio das tarefas.
+
+A literatura também nos apresenta outros exemplos de contextualização de atividades computacionais com o ensino de ciências. Dentre algumas propostas práticas, podemos destacar o uso eficiente do software Netlogo \cite{netlogo} na introdução de noções de probabilidade e estatística, como relatado por \citeonline{ProbLab}, e na modelagem de fenômenos epidemiológicos, tal como reportado em \cite{Lee:2011:CTY:1929887.1929902}.
+
+% O enriquecimento das atividades em sala dae aula não tem sido o único
+Vários estudos apontam que o enriquecimento trazido por essa abordagem conjunta, associada com o caráter ``mão na massa'' de muitas dessas atividades, produz impactos positivos na forma como os alunos percebem as aulas de ciências \cite{Lee:2011:CTY:1929887.1929902, Barr2011}. A sensação de estar resolvendo um problema autêntico com real aplicabilidade e, em muitos casos, inserido na realidade do qual fazem parte, produz aumentos sensíveis dos níveis de engajamento.
+
+\citeonline{Weintrop2016} sugere que o aumento da atratividade dessas disciplinas, apresentadas dessa forma, também pode favorecer o aumento da representação de grupos minoritários nos meios científicos, tais como mulheres, negros e transgêneros.
+
+A atenção crescente que educadores têm dado ao tema do pensamento computacional tem sido apoiado também pela expectativa de inverter a relação entre os estudante e a tecnologia. A pergunta que se coloca é: como de meros usuários eles podem vir a tornar criadores? 
+
+\citeonline{resnick} argumenta que apesar de serem vistos como ``nativos digitais''\footnote{A expressão ``nativo digital'' foi cunhada pelo escritor Marc Prensky para designar aqueles que desde o seu nascimento tiveram a oportunidade de interagir com tecnologias digitais, tais como videogames, computadores, telefone celular, iPhones, iPads...},  a geração nascida durante esse século esta familiarizada apenas com o consumo de tecnologia, e não necessariamente com a sua criação ou produção. Para ele, o beneficio de dotá-la com essa capacidade criativa não estará apenas nessa ou naquela tecnologia desenvolvida pelo estudante, mas sim nas competências cognitivas adquiridas por ele durante o processo de criação. Dentre algumas delas, o autor destaca:
+
+\begin{enumerate}
+  \item a capacidade de pensar em termos sistêmicos, ou seja, em função do comportamento agregado resultante da interação dos componentes de sistema - ``o todo não é a soma das partes''; 
+  \item a habilidade para trabalhar em equipe;
+  \item a competência para estruturar e planejar as etapas de um projeto;
+  \item a facilidade para experimentar novas ideas (prototipagem); 
+  \item a destreza para decompor ideias complexas em unidades menores (abstrações);
+  \item a perícia necessária para investigar defeitos ou comportamentos inesperados (depuração);
+  \item a inteligência emocional necessária para lidar com frustrações e perseverar em face de dificuldades que surgem ao longo de um projeto.  
+\end{enumerate}
+
+Como ressalta, mesmo que o estudante não venha a se tornar um engenheiro ou um cientista da computação todas essas competências são importantes para todo e qualquer tipo de atividades. Analogamente, mesmo que poucos deles se profissionalizem como escritores, a capacidade para redigir textos é fundamental para qualquer um.
+
+\citeonline{resnick} direciona o seu argumento para justificar os benefícios do ensino de programação. Veremos, contudo, que o desenvolvimento dessas competências criativas - todas elas associadas ao pensamento computacional - podem passar por caminhos diferentes da habilidade de escrever código, propriamente dita. 
+
+Outras oportunidades educacionais estão associadas às respostas que essa abordagem oferece para vários problemas relacionados ao tema da avaliação. O ensino de ciências é dominado por uma tradição explicativa cujo objetivo é a simples transmissão de dados e conceitos pelo professor. Nesse contexto, convencionou-se que o ciclo de ensino e aprendizagem se fecha quando os alunos são capazes de reproduzir essas informações numa prova cronometrada. No ensino de física, em especial, entende-se que o aprendizado se efetiva quando eles se mostram capazes de resolver três ou quatro variações de um problema  discutido em sala de aula - quase sempre de natureza algébrica. 
+
+O que se observa, portanto, é um modelo avaliativo indutor de um comportamento autômato do estudante, em prejuízo do desenvolvimento da sua capacidade crítica e analítica.
+
+Por outro lado, o desenvolvimento de atividades sustentadas pelo pensamento computacional tem como foco a resolução de problemas abertos, quase sempre relacionados à construção e não à imposição de modelos (abstrações). Conceitos e princípios científicos são trabalhados sob a perspectiva de que não há modelos ``corretos'', mas sim ``apropriados'', que melhor respondem a determinadas questões. 
+
+Dessa forma, a absorção de tais conteúdos conceituais se dá pela necessidade de articulá-los, por exemplo, na construção de uma animação, ou até mesmo de um jogo. Nesse ambiente, o aluno tem a oportunidade de atestar a validade de um princípio físico pela ``qualidade'' do caminhar do seu personagem, por quão bem o seu comportamento reflete a realidade. O aprendizado das três leis de Newton nesse cenário nascerá da análise, da observação, e não da simples ``decoreba''. 
+
+Os marcos avaliativos introduzidos por essa abordagem estão ancorados na perspectiva de que a aprendizagem de conteúdos científicos devem ser encarados como um meio, um \textit{playground} para o desenvolvimento de competências cognitivas, e não como um fim em si. 
+
+Por esse motivo pode-se afirmar que o uso do pensamento computacional estimula comportamentos em sala de aula mais compatíveis com a natureza da investigação científica. E por ela se desenvolver cada vez mais em bases computacionais, como discutido no capítulo \ref{computadores-e-ciencia}, apoiar a sua aprendizagem na construção e na análise de modelos computacionais permite que os alunos tenham uma visão mais realista e coerente com a forma que ela é exercida profissionalmente. 
+
+Dadas as motivações para exercício do pensamento computacional, ainda permanecem algumas questões de natureza práticas a serem respondidas e conciliadas para que essa abordagem se viabilize em sala de aula. Mesmo que até aqui tenhamos esboçado algumas definições, elas ainda não foram capazes de oferecer respostas precisas sobre como esse conceito pode ser materializado em sala de aula. Essa é tarefa que desejamos cumprir no capítulo seguinte.
+
+% Sem perda de generalidade, podemos dizer que o pensamento computacional,
+
+% Em essencia, o que nos propomos a responder é o que significa efetivamente o pensamento computacional em sala de aula?
+
+
+
+% Trazê-las para discussão é objetivo da seção a seguir.
+
+\section{Significado do pensamento computacional no contexto da sala de aula}\label{significado-pensamento-computacional}
+
+O emprego de dispositivos autômatos como ferramentas educacionais remonta às ``máquinas de ensinar'', cujo movimento dependia da seleção da alternativa correta de uns dos itens de uma questão múltipla escolha. Esse mecanismo foi proposto e desenvolvido pelo professor de psicologia da Universidade de Ohio,  Sidney L. Pressey.
+
+\begin{figure}[!htb]
+	\caption{``Máquina de ensinar'' de Pressey}
+	\begin{center}
+	    \includegraphics[scale=0.7]{imagens/pressey}
+	\end{center}
+	\legend{Fonte: \citeonline{pressey}}
+	\label{fig:pressey}
+\end{figure}
+
+O uso da expressão ``pensamento computacional'', contudo, tem uma origem mais recente. O seu primeiro registro é observado no livro \textit{Mindstorms: Children, computers and powerful ideas}, da década de 1980, onde Seymour Papert discorre sobre a oportunidade trazida por computadores para o ensino de matemática. 
+
+A popularização da expressão e o consequente interesse da comunidade acadêmica veio apenas com a publicação do artigo por \citeonline{wing2006}, no qual é proposto ``um conjunto de atitudes e habilidades universalmente aplicáveis'' assentadas na forma como cientistas da computação e programadores resolvem problemas.
+
+Apesar do intenso debate despertado pelo artigo e do reconhecimento das questões e oportunidades educacionais implicadas no tema, o desenvolvimento de atividades e abordagens para sala de aula tem sido especialmente desafiador em face da parcial ou completa inexistência de um significado consensual para o conceito que seja adequado para este ambiente. A definição para o pensamento computacional resultante da discussão proposta por \citeonline{wing2006} foca apenas na contribuição da ciência da computação para as várias áreas da atividade humana, e acaba por não demonstrar como esse conceito deve se realizar no plano educacional.
+
+Essa indefinição tem tornado difícil o estabelecimento de formas mensuráveis de avaliar o progresso dos alunos e tem redundado na inviabilização do desenvolvimento de um currículo, e consequentemente, na oferta de treinamento de professores.
+
+Na tentativa de preencher essa lacuna, um número significativo de conferências e congressos tem sido realizado ao redor do mundo, em especial nos Estados Unidos e na Europa, financiados em boa parte por secretarias de educação e grandes empresas de tecnologia, como a Microsoft. Ao mesmo tempo, desde da publicação de \citeonline{wing2006}, uma quantidade expressiva de artigos reportando experimentações em sala de aula tem sido publicados. 
+
+O ponto de convergência desses debates tem sido a busca de uma definição clara sobre o significado desse conceito para o contexto da sala de aula que ao mesmo tempo dialogue com as particularidades e dificuldades pertinentes a esse ambiente.
+
+Dentre as questões para as quais se tem buscado resposta incluem-se \cite{Weintrop2016}: 
+
+\begin{enumerate}
+  \item Como o pensamento computacional se relaciona com as atuais disciplinas e práticas correntes em sala de aula?
+  \item Como se estabeleceria a progressão de assuntos a serem trabalhados? 
+  \item Quais são as práticas educacionais refletidas pelo pensamento computacional, e como preparar professores para que possam empregá-las em sala de aula? 
+  \item Qual é melhor forma de avaliar o uso e o exercício dessas práticas pelos alunos?
+\end{enumerate}
+
+Alguns exemplos concretos da formulação desses e de outros questionamentos podem ser encontrados no relatório produzido pelo Conselho Nacional de Pesquisas dos Estados Unidos (NRC), resultante de um encontro realizado no ano de 2010. Nele são listados vinte habilidades e práticas identificadas com o pensamento computacional, tais como a abstração e decomposição de problemas, formulação de soluções heurísticas e de estratégias de busca, bem como conceitos pertinentes à ciência da computação, tais como processamento paralelo e uso de recursão \apud{NRC}{Weintrop2016}.
+
+
+Também vale registrar o trabalho de \citeonline{Barr2011}, no qual o esforço de significar o pensamento computacional na perspectiva da sala de aula traduziu-se no mapeamento de algumas competências a disciplinas comuns à educação básica. Esse conteúdo esta disponível nas tabelas \ref{tab:barr-1} e \ref{tab:barr-2}.
+
+\input{elementos-textuais/tabela-competencias-barr.tex}
+
+Outro trabalho merecedor de registro é o de \citeonline{Brennan2012}. Nele o pensamento computacional é trabalhado sob a perspectiva da aprendizagem de programação e é estruturado em três dimensões: 
+
+\begin{enumerate}
+\item \textbf{conceitos computacionais} - conceitos com os quais os estudantes se envolvem ao aprender a programar, tais como iteração e paralelismo.
+
+\item \textbf{práticas computacionais} - práticas que os estudantes desenvolvem quando se engajam com esses conceitos.
+
+\item \textbf{perspectivas computacionais} - perspectivas que os estudantes adquirem sobre o mundo ao seu redor e sobre si mesmo, resultantes desse aprendizado.
+\end{enumerate}
+
+Acompanhando essa proposta, são sugeridas formas de avaliar o progresso dos alunos em cada uma delas. O uso do ambiente \textit{Scratch}, ilustrado na figura \ref{fig:scratch}, desenvolvido pelo \textit{MIT Labs}, marca o desenvolvimento do artigo.
+
+\begin{figure}[!htb]
+	\caption{\textit{Scratch} - linguagem de programação visual desenvolvido pelo \textit{MIT Labs}.}
+  \begin{center}
+	  \includegraphics[max width=\textwidth]{imagens/scratch}
+	\end{center}
+	\label{fig:scratch}
+\end{figure}
+
+Ao longo das páginas seguintes, iremos apoiar as nossas análises na proposição de \citeonline{Weintrop2016}. Entre os trabalhos analisados, esta contribuição é a que melhor responde à nossa necessidade de oferecer uma perspectiva prática do pensamento computacional, coerente com as necessidades do ensino de ciências. Isso porque nele podemos observar a delimitação clara das competências a serem exercitadas pelos alunos e como elas tendem a favorecer a tão almejada aprendizagem científica.
+
+Essa definição é alcançada pela criação de uma taxonomia que contemple as principais práticas identificadas pelo autor que estão relacionadas ao pensamento computacional. Na seção seguinte iremos detalha-la, mas, previamente, descrever a metodologia adotada. E como definições só podem ser úteis se forem acompanhada de exemplos práticos, iremos, em seguida, demonstrar como o exercício dessas competências podem ser incorporadas a temas das aulas de ciências, ao mesmo tempo que ilustramos a discussão com a descrição de casos reais.
+
+\section{A criação de uma taxonomia para o pensamento computacional}
+
+A definição de uma taxonomia segue na esteira dos empreendimentos cujo objetivo tem sido uma significação funcional para o pensamento computacional. Nas palavras de \citeonline{Weintrop2016}, o que se busca é 
+
+\begin{citacao}
+$[...]$ uma abordagem diferente para a definição do pensamento computacional, contando com a aplicação das práticas identificadas acima em contextos distintos da ciência da computação. Ao fazer isso, deixamos de confiar em ideias e práticas descontextualizadas e, em vez disso, recorremos a instanciações reais do pensamento computacional na natureza para fornecer clareza e especificidade sobre o que o termo significa. Isso reforça o argumento de que essas práticas são amplamente aplicáveis, ao mesmo tempo em que fornecem uma definição concreta e acionável do pensamento computacional. \cite[Tradução nossa]{Weintrop2016}
+\end{citacao}
+
+A metodologia adotada envolveu o emprego de três recursos básicos:
+
+\begin{enumerate}
+  \item amostras de atividades educativas envolvendo pensamento computacional tanto em matemáticas como em ciências.
+  \item levantamento de conceitos existentes sobre o pensamento computacional presentes na literatura.
+  \item entrevistas com matemáticos e cientistas.
+\end{enumerate}
+
+Os passos dados pelos autores foram assim sequenciados:
+
+\begin{enumerate}
+  \item \textbf{Delimitação das rotinas e habilidades relacionadas}
+
+  Com o objetivo de identificar as competências e práticas que são associadas repetidamente ao pensamento computacional, uma revisão da literatura foi feita. Dentre o material analisado estiveram tanto documentações oficiais produzidas sobre pensamento computacional, como o já citado \citeonline{NRC}, como ementas curriculares de programas de engenharia e ciência da computação. Durante essa investigação, buscou-se a aquisição de uma visão panorâmica sobre o tema antes da delimitação do escopo da análise para as disciplinas matemáticas e científicas. Dessa etapa, dez competências básicas foram extraídas (Tabela \ref{tab:ten-skills}).
+
+  \input{elementos-textuais/tabela-dez-competencias-pensamento-computacional.tex}
+
+  \item \textbf{Coleção e classificação de atividades voltadas para a introdução do tema nas aulas de ciências e matemática} 
+  
+  Foram analisadas trinta planos de aulas de uma coleção, permeadas por conteúdos de física, astronomia, química, biologia, ciências da terra, redes e programação. Todo material analisado tinha origem no programa ``Reach for Stars''\footnote{Mais informações sobre o programa pode ser encontrado em \href{http://gk12.ciera.northwestern.edu/}{http://gk12.ciera.northwestern.edu/}, } cujo propósito é a integração entre estudantes de pós-graduação de disciplinas STEM, dependentes do uso de computação nas suas pesquisas, e alunos da educação básica. Tendo como meta a identificação de práticas relacionadas às que foram recortadas do primeiro passo, uma analise foi feita por dois pesquisadores independentes. Dela emergiram um conjunto de 208 facetas do pensamento computacional, das quais uma pequena amostra é exposta na tabela \ref{tab:facetas}.
+  
+  \input{elementos-textuais/facetas-pensamento-computacional.tex}
+
+  \item \textbf{Organização temática} 
+  
+  A partir da análise feita até então, foi produzida uma lista com vinte e sete práticas, tematicamente organizada em cinco grandes campos: dados e informações, modelagem e simulação, resolução de problemas, pensamento sistêmico.
+
+  \item \textbf{Validação} 
+  
+  A taxonomia criada, disponível até a execução dessa etapa, foi apresentada a professores da educação básica. Com esse material em mãos, colaborativamente, eles puderam desenhar atividades para suas turmas. 
+
+  No geral, de acordo com o autor, o \textit{feedback} fornecidos por eles foram bastante positivos, embora algumas preocupações tenham sido evidenciadas em relação às seções da taxonomia com conceitos computacionais, tais como aplicação de lógica condicional e uso de recursão e iteração. 
+  
+  A razão para esse receio era a percepção que tais tópicos estavam muito distantes do conteúdo trabalhado em sala de aula.
+
+  Além de profissionais da educação básica, outros tantos \textit{feedbacks} foram colhidos com pesquisadores de alguns setores da indústria, bioquímicos, físicos, engenheiro de materiais, astrofísicos, cientistas da computação e engenheiros biomédicos.
+
+  Além da intenção de colher avaliações, o objetivo dessa rodada de entrevistas foi a obtenção de informações e \textit{insights} sobre o como o pensamento computacional integra autênticos ambientes de pesquisas. Ao mesmo tempo, buscou-se observar as semelhanças e diferenças na forma como o uso computação se efetiva na rotina de trabalho em cada uma das áreas desses profissionais.
+
+  \item \textbf{Revisão} 
+
+  A partir dos \textit{feedbacks} e sugestões feita pelos professores e pesquisadores, uma revisão da primeira versão da taxonomia foi feita.
+
+  O resultado final desse processo pode ser visto na tabela disponível na figura \ref{fig:taxonomia}. Uma discussão sobre cada um dos elementos dessa classificação é feita a seguir.
+\end{enumerate}
+
+
+
+\begin{landscape}
+  \begin{center}
+    \begin{figure}[!htb]
+      \caption{Taxonomia para práticas do pensamento computacional}
+      \begin{center}
+          \includegraphics[scale=0.7]{imagens/taxonomia}
+      \end{center}
+      \legend{Fonte: \citeonline{Weintrop2016}}
+      \label{fig:taxonomia}
+    \end{figure}
+  \end{center}
+\end{landscape}
+
+\subsection{Práticas relacionadas a dados}
+
+\citeonline{Weintrop2016} sustenta que a capacidade de analisar e extrair significado de um grande volume de dados desestruturados tem sido uma das características definidoras da prática científica moderna. A maneira como esse empreendimento vem sendo conduzido tem sido impactados significativamente pelos avanços tecnológicos em curso. 
+
+Para ilustrar a relevância dessa prática, o autor destaca uma das entrevistas feitas durante a elaboração da taxonomia na qual um cientista de materiais, questionado sobre como era sua pesquisa, responde: ``Em quase tudo, o que se tem são dados brutos''. Em seguida ele prossegue explicando como ele define as perguntas a serem respondidas (problemas de pesquisa), e como dados são gerados, processados e organizados, para que então, finalmente, o uso de determinados softwares gerem as visualizações para suas conclusões. 
+
+
+Segundo o autor, abrigar algumas dessa práticas nas atividades escolares deve significar ajudar o alunos a perceberem que inerentemente dados não oferecem respostas imediatas, e que para alcançá-las ``ordem deve ser imposta''. Por esse motivo a introdução de noções básicas de estatística e probabilidade se faz necessária.
+
+Cada um dos aspectos relevantes ao uso de dados são destrinchados a seguir.
+
+
+\begin{enumerate}
+  \item \textbf{Coleta de dados}
+
+  O papel que os computadores cumprem na coleta de dados guarda relação com a necessidade de automatizar protocolos de registro e armazenamento de dados gerados pela observação de um fenômeno.
+  
+  De acordo com \citeonline{Weintrop2016}, o aluno que dominar esta prática será capaz de propor  protocolos de coleta dados e formas de uso de ferramentas computacionais que automatizam essa tarefa.
+
+  \item \textbf{Geração de dados}
+  
+  Em astronomia, para a compreensão da evolução de uma galáxia, torna-se necessário a geração de dados a partir de simulações computacionais, dado que escala de tempo investigada (bilhões de anos) é incompatível com a dos pesquisadores.
+
+  Esse exemplo ilustra um dos aspectos da pesquisa científica onde a necessidade de geração de dados impõe-se em razão de restrições circunstanciais.
+
+  Como assinala o autor, o estudante que dominar esta prática será capaz de definir procedimentos computacionais e executar simulações que permitam a criação de dados, cuja utilização pode auxiliá-lo a aprofundar a compreensão em um tópico sob investigação.
+
+  \item \textbf{Manipulação de dados}
+
+  O uso de computadores torna possíveis a manipulação de dados desestruturados, de tal modo a permitir que significados possam  ser extraídos. 
+
+  Dentre as várias técnicas existentes de manipulação, o autor cita o ordenamento, a filtragem, a limpeza, a normalização e a união de conjunto de dados dissociados. 
+  
+  Como destaca, o aluno que dominar esta prática será capaz de, a partir do uso de ferramentas computacionais, remodelar um conjunto de dados de tal modo a facilitar seu trabalho de investigação.
+
+  \item \textbf{Análise de dados}
+
+  Em face da abundância de dados existentes, o uso de ferramentas computacionais para análise de dados tem sido um das tarefas mais relevantes da prática científica.   
+  
+  Dentre as várias estratégias existentes, o autor destaca a busca por padrões ou anomalias, a definição de regras para categorização de dados, e a identificação de tendências e correlações. 
+
+  Conforme sublinha, o aluno que dominar esta prática será capaz de fazer afirmações e extrair conclusões a partir da análise de um conjunto de dados.
+
+
+  \item \textbf{Visualização de dados}
+
+  Outros aspectos relevantes e necessários da atividade científica são a comunicação e o compartilhamento de dados.
+
+  Nesse sentido, o uso de ferramentas computacionais que tornam possível a projeção de dados, seja na forma de um gráfico simples ou de uma exposição dinâmica que permite a interação do usuário com a informação, desempenha papel preponderante.
+
+  Conforme sustenta \citeonline{Weintrop2016}, o aluno que dominar esta prática será capaz de usar com eficiência ferramentas de visualização que permitam a comunicação de informações e conclusões extraídas durante a análise.
+
+\end{enumerate}
+
+\subsection{Práticas de simulação e modelagem}
+
+Outro conjunto práticas que compõe a taxonomia de \citeonline{Weintrop2016} são aquelas relacionadas ao exercício da representação de fenômenos, também presentes no uso e criação de modelos e simulacros computacionais. 
+
+Falando especificamente de modelos, poderíamos dizer que ``todos estão errados, mas alguns deles são úteis'' \apud{box1987empirical}{Weintrop2016}, dado o caráter simplificador, mas representativo de alguns - proporcional à capacidade descritiva e preditiva que comportam. 
+
+Dentre as várias formas que um modelo pode assumir, o autor destaca os fluxogramas, os diagramas, as equações, as fórmulas químicas, os modelos físicos (como maquetes ou representações tridimensionais de uma molécula), e por fim os modelos e simulações computacionais - representações não-estáticas de um fenômeno, reproduzidos por um computador \cite{Weintrop2016}.
+
+\begin{figure}[!htb]
+  \caption{Modelo físico de uma cadeia de DNA}
+	\begin{center}
+    \includegraphics[width=0.5\textwidth]{imagens/modelo_fisico.jpg}
+	\end{center}
+	\label{fig:modelo-fisico}
+\end{figure}
+% O autor traz algumas definições que tornam mais nítidas a relevância desses elementos de representação. 
+
+O trabalho de criação de um modelo computacional envolve a identificação de abstrações apropriadas - regras matemáticas subjacentes ao fenômeno modelado, por exemplo - e seu refino iterativo, por meio de depuração (investigação e correção de comportamentos inesperados) e validação com elementos correspondentes no mundo real \cite{wing2008}.
+
+De um ponto de vista pedagógico, a sua utilidade está na possibilidade de tornar a compreensão de um fenômeno mais clara e permitir a investigação de comportamentos cuja condições determinantes são difíceis, senão impossíveis de reproduzir.
+
+O poder didático dessa ferramenta, contudo, não está apenas no seu uso, mas na possibilidade do estudante também criá-la, tornando possível a formulação de suas próprias interpretações da realidade. 
+
+Como ressalta \citeonline{Weintrop2016}, os educadores reconhecem que tais práticas de representação são indissociáveis da aprendizagem científica, mas elas são raremente explicitadas como parte da instrução. E é exatamente para contornar esse problema que novas formulações curriculares tem tornado claro a necessidade de estimular a criação, e não apenas o uso de modelos acabados. 
+
+Abaixo listamos as cinco práticas incluídas na taxonomia, referentes à simulação e modelagem.
+
+\begin{enumerate}
+  \item \textbf{Uso de modelos computacionais para entender um conceito}
+
+  Segundo o autor, o uso de modelos computacionais que demonstram ideias específicas ou simulam comportamento de fenômenos são poderosas ferramentas didáticas.
+
+  Isso porque eles tendem a oferecer suporte a investigações sistemáticas que permitem o exercício do controle sobre parâmetros de comportamento, através de combinações e variações que, normalmente, são difíceis, senão impossíveis, de reproduzir sem o aparato computacional.
+
+  Por isso, conclui que o estudante que dominar essa prática será capaz de aprofundar sua compreensão sobre um fenômeno ou conceito sob investigação, utilizando modelos computacionais que os reproduzem.
+
+  \item \textbf{Uso de modelos computacionais para encontrar e testar uma solução}
+  
+  Modelos computacionais podem ser usados para testar hipóteses e descobrir soluções para problemas. 
+
+  Como discutido anteriormente, eles viabilizam, por exemplo, a exploração de aspectos de fenômenos que seriam muito perigosos, caros, difíceis, ou simplesmente impossíveis de reproduzir em escala ordinária de tempo e de recursos.
+
+  Entretanto, com poder computacional e modelos matemáticos adequados pode-se facilmente alcançar uma boa diversificação e combinação do ``espaços de parâmetros'' \footnote{conjunto de todos os arranjos possíveis dos parâmetros de um modelo matemático}, e assim validar ou testar os limites de uma solução.
+
+  \citeonline{Weintrop2016}, sugere que o aluno que dominar esta prática será capaz de propor, testar e assim justificar o uso de uma solução, a partir da exploração de um modelo computacional, e aplicar adequadamente as informações extraídas nesse processo.
+
+  \item \textbf{Avaliação de modelos computacionais}
+
+  A capacidade de avaliar a relação de um modelo computacional com a realidade representada é um dos aspectos aspectos essenciais para medirmos a sua adequabilidade, segundo \citeonline{Weintrop2016}.
+
+  O autor aponta algumas questões que precisam ser analisadas e respondidas quando se tem esse fim em mente. Dentre elas estão as seguintes:
+
+  \begin{enumerate}
+    \item Quais suposições que os criadores do modelo fizeram sobre o mundo e como elas afetam o seu comportamento?
+    \item Quais as camadas de abstração foram incorporadas ao modelo e como elas moldam a fidelidade da sua representação do fenômeno?
+    \item Quais são os aspectos do modelo que foram fielmente modelados e quais outros foram simplificados ou simplesmente ignorados?
+  \end{enumerate}
+
+  Responder essas questões é tarefa essencial para compreensão dos limites de uma representação. Ao mesmo tempo, tê-las em contas é fundamental para que se possa validá-la ou não.
+
+  De acordo com o autor, o aluno que dominar esta prática ``será capaz de articular as diferenças entre o modelo e fenômeno representado, o que inclui o levantamento de ameças a sua validade e a identificação das suposições que o sustentam'' \cite{Weintrop2016}.
+
+  \item \textbf{Desenho de modelos computacionais}
+
+  O desenho de modelos computacionais podem ser norteados por algumas motivações. Dentre as já discutidas, podemos citar a necessidade de testar hipóteses ou comunicar ideas, e o interesse em compreender melhor um fenômeno, 
+
+  Durante esse processo somos levados à tomada de algumas decisões, que podem variar de acordo com o problema a ser resolvido. Dentre as mais recorrentes, \citeonline{Weintrop2016} cita a necessidade de definir os limites do sistema - explicitar aquilo que deve ser incorporado e/ou descartado - e conceitualizar as propriedades e comportamentos dos elementos incluídos. Ao final, deve ser assegurado que o produto resultante atenda aos objetivos que inicialmente motivaram a construção do modelo \cite{Weintrop2016}.
+
+  Portanto, os estudantes que exercitarem essa prática terão a oportunidade de desenhar modelos computacionais, descrevendo-os e decidindo quais dados serão produzidos, enquanto poderão cultivar o hábito de fazer avaliações críticas, a partir da análise dos limites da representação, das suposições nela incorporadas. Espera-se que essa reflexão faculte a eles o entendimento da extensão das conclusões que podem ser extraídas do modelo.
+
+  \item \textbf{Construção de modelos computacionais}
+
+  Uma importante ferramenta da atividade de um pesquisador é sua capacidade de criar modelos computacionais ou ampliar outros já existentes, seja dando continuidade ou simplesmente complementando o trabalho realizado por seus pares. 
+
+  Enquanto o desenho de um modelo, como já discutido, envolve a tomada de decisões essencialmente teóricas - tais como a seleção e descarte de elementos, bem como a descrição e conceptualização de comportamentos e propriedades - a sua construção, por outro lado, exige saber expressá-lo de forma ``compreensível'' a um computador. 
+  
+  Em muitos casos essa competência se expressa com o uso de uma linguagem de programação, mas em outros com \textit{softwares} que provêm uma interface gráfica ou de linha de comando, tais como o \textit{Wolfram Mathematica\footnote{\href{http://www.wolfram.com/mathematica/}{http://www.wolfram.com/mathematica/} }} e o \textit{Matlab\footnote{\href{https://www.mathworks.com/products/matlab.html}{https://www.mathworks.com/products/matlab.html}}}.
+
+  \citeonline{Weintrop2016}, sugere que estudantes que dominarem essa prática serão capazes de implementar novos comportamento de modelos, seja por criação ou extensão, utilizando tanto uma linguagem de programação quanto \textit{softwares} prontos, que oferecem suporte à modelagem.
+\end{enumerate}
+
+\subsection{Prática de resolução de problemas computacionais}
+
+Nesta etapa de elaboração da taxonomia \citeonline{Weintrop2016}, concentra seus esforços na apresentação das práticas de resolução de problemas trazidas pela ciência da computação. Seguem destrinchadas cada uma delas. 
+
+\begin{enumerate}
+  \item \textbf{Preparo de problemas para admitir soluções computacionais}
+
+  % Enquanto alguns problemas naturalmente se prestam a soluções computacionais, com mais frequência, os problemas precisam ser reformulados para que as ferramentas computacionais existentes - sejam dispositivos físicos ou pacotes de software - possam ser utilizadas.
+
+  Normalmente, para que um problema admita solução computacional, faz-se necessário a sua reformulação de modo a mapeá-lo às capacidades de ferramentas existentes - sejam elas pacotes de software ou dispositivos físicos. 
+
+  Dentre as várias estratégias existentes que possibilitam esse reenquadramento,  \citeonline{Weintrop2016} lista a possibilidade de decomposição de um problema em unidades menores, ou simplesmente a sua reedição em termos de outros, cujas soluções são conhecidas. 
+
+  O autor sugere que o estudante que dominar esta prática será capaz de empregar estratégias de reenquadramento e tornar mais eficiente a resolução de problemas nos quais estiver trabalhando. 
+
+  \item \textbf{Programação} 
+
+  O emprego da codificação tem se mostrado um poderosa ferramenta na resolução de problemas. Dentre as vários possibilidades que essa habilidade tem trazido para pesquisa científica, pode-se destacar a coleta e análise massiva de dados, a formatação e visualização de informações, bem como a construção e extensão de modelos e interfaces com ferramentas computacionais existentes \cite{Weintrop2016}. 
+  
+  O ensino de programação, contudo, tem se mostrado um tarefa desafiadora em face da pouca ou nenhuma disponibilidade de programas de capacitação para professores e da dificuldade de aprendizado relacionada à sintaxe das linguagens de programação convencionais. 
+  
+  Para contornar estas dificuldades, tem sido desenvolvidas linguagens e plataformas de programação visual, cujo arranjo algorítmico e sintático das instruções dadas são estruturados por elementos gráficos e não textuais. Dos exemplos com esta finalidade, o mais proeminente é o \textit{Scratch}, sobre o qual já falamos na seção \ref{significado-pensamento-computacional}. Mais detalhes a respeito e registros de experiências didáticas envolvendo o programa podem ser encontradas em \citeonline{Maloney} e \citeonline{resnick}.
+
+  \begin{figure}[!htb]
+    \caption{Scratch - linguagem e plataforma de programação visual}
+    \begin{center}
+      \includegraphics[width=0.8\textwidth]{imagens/Scratch_2_0_Screen_Hello_World.png}
+    \end{center}
+    \label{fig:scratch-2}
+  \end{figure}
+
+  Quanto às competências a serem exercitadas pelo estudante com o aprendizado de programação, de acordo com a taxonomia de \citeonline{Weintrop2016}, espera-se que eles se tornem capazes de entender, modificar e criar programas e, com essas habilidades, persigam seus ``próprios objetivos matemáticos e científicos''.
+
+  \item \textbf{Escolha de ferramentas computacionais apropriadas} 
+
+  Um único problema pode ser resolvido de diversas formas e com o auxílio de diversas ferramentas. A destreza para identificar dentre um conjunto aquelas que melhor auxiliam nesse propósito é uma das principais competências necessárias em um projeto. 
+
+  Na lista parâmetros que normalmente influenciam essa escolha incluem-se as funcionalidades oferecidas pelo software, as suas possibilidades de personalização, os tipos de dados que podem ser inseridos e produzidos, e para além do campo técnico, por exemplo, a maturidade e grau de atividade da sua comunidade de usuários \cite{Weintrop2016}. Esse espaço de troca de informação é especialmente importante em situações em que a assistência se faz necessária mas a documentação disponível pelos desenvolvedores da ferramenta são insuficientes.
+  
+  \citeonline{Weintrop2016} sugere que os alunos que adquirem essa \textit{expertise} serão capazes de balancear as vantagens e desvantagens oferecidas por ferramenta computacional e, assim, tomar decisões justificáveis e informadas. 
+
+  \item \textbf{Avaliação de diversas abordagens/soluções para resolver um problema} 
+
+  Uma outra faceta do processo de resolução de problemas, recorrente na prática científica, é necessidade de escolher uma solução dentre muitas possíveis.
+
+  Quando há duas ou mais abordagens para um problema, faz-se necessário a avaliação da adequação de cada uma delas em termos de parâmetros tais como extensibilidade, durabilidade, flexibilidade, reusabilidade e custo, seja em recursos materiais ou em tempo.
+
+  \citeonline{Weintrop2016} avalia que alunos que exercitarem essa prática poderão avaliar diversas abordagens ou soluções para um problema, tendo como referência de julgamento as restrições e requisitos do problema, bem como as funcionalidades das ferramentas disponíveis. 
+
+  \item \textbf{Desenvolvimento de soluções computacionais modulares} 
+
+  Ordinariamente, a resolução de um problema complexo sequencia-se em um conjunto de etapas menores e assume forma na solução de outros menores. 
+  
+  Cada uma dessas soluções podem ser desenhadas de modo intrincado, visando apenas o problema em questão, ou podem ser concebidas modularmente, de modo a serem reutilizáveis.
+
+  Quando modulares, os elementos de um modelo ou ferramenta computacional podem ser desenvolvidos de maneira incremental e serem testados e depurados de maneira independente, aspecto que facilita sensivelmente sua manutenção.
+
+  Quanto ao aspecto escolar, \citeonline{Weintrop2016} sustenta que os alunos que dominarem essa prática poderão desenvolver soluções cujos componentes atendem tanto as necessidades dos problemas em mãos quanto daqueles que, eventualmente, surgirem adiante. 
+
+  \item \textbf{Criação de abstrações computacionais} 
+
+  Como já discutido anteriormente, o trabalho de criação de uma abstração traduz-se na conceitualização de terminadas ideas ou processos, por meio do qual explicita-se determinados aspectos em detrimento de outros, entendidos como menos relevantes para descrição.
+
+  Como também já visto, a construção e o emprego dessa entidade conceitual desempenha papel fundamental na atividade matemática e científica, e toma forma na codificação de programas, na geração e visualização de dados, na definição do escopo e escala de um problema, ou na criação de modelos, concebidos para exploração e/ou melhor compreensão de um fenômeno \cite{Weintrop2016}. 
+
+  Tratando-se especificamente de abstrações computacionais, \citeonline{Weintrop2016} sugere alunos que adquirirem a capacitação para criá-las estarão aptos, ao mesmo, para identificá-las e empregá-las em função dos seus próprios objetivos matemáticos e científicos. 
+
+  \item \textbf{\textit{Troubleshooting} e \textit{Debugging}} 
+  
+  O uso da expressão \textit{troubleshooting} aplica-se à investigação sistemática e à compreensão do porquê algo não está se comportando como esperado. 
+  Em ciência da computação, esse processo é também conhecido como \textit{debugging} (depuração, em tradução livre). 
+
+  Dentre as estratégias compreendidas pelo termo, incluem-se a definição clara do problema e o teste metódico do sistema sobre o qual recai o erro. Nos dois casos o que se objetiva é o seu isolamento e reprodução.
+
+  Nas disciplinas STEM, o estudo do tema desempenha papel preponderante, dado que nelas o surgimento de erros e comportamentos inesperados são uma constante. Contudo, a forma como que eles são depurados varia, sendo possível, portanto, encontrar em cada uma delas um conjunto de técnicas e ferramentas específicas desenhadas com esse propósito. 
+
+  \citeonline{Weintrop2016} sugere que o exercício dessa prática tornará o aluno apto a identificar, isolar, reproduzir, e por fim, corrigir comportamentos e erros inesperados em problemas ou modelos com os quais estiver trabalhando.
+\end{enumerate}
+
+\subsection{Práticas de pensamento sistêmicos}
+
+So many of the important problems that we face today are complex, involving multiple variables, numerous direct and indirect effects, and are comprised of many, interde- pendent parts. 
+
+‘‘The ability to think systemically is an important habit of mind that supports not only the scientific background of the developing STEM workforce, but also future scientifically literate citizens.
+
+ In a global society where future large-scale, scientifically based decisions will need to be made, it is important for the general populous to develop a systems thinking orientation toward the world’’ (Duschl and Bismack 2013, p. 120). 
+ 
