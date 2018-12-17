@@ -1,17 +1,13 @@
-Pensamento computacional nasce da constatação da autora sobre a forma como tem sido resolvido como problemas tem sido resolvidos nos mais variados domínios.
+A system can be viewed as a single entity composed of many interrelated elements; for some questions, it is more effective to investigate how the system works as a whole as opposed to studying each individual element or set of elements. 
 
-Adotar uma postura para resolução de problemas, baseando-se em elementos da ciência da computação.
+Investigating a complex system as a whole relies on the ability to define and measure inputs and outputs of the system. 
 
-"Computational Thinking is the thought processes involved in formulating problems and their solutions so that the solutions are represented in a form that can be effectively carried out by an information-processing agent."
+This is especially critical in the sciences because so many phenomena are the result of very large- scale, complex interactions. 
 
-Computational thinking is a way of solving problems, designing systems, and understanding human behavior that draws on concepts fundamental to computer science. To flourish in today's world, computational thinking has to be a fundamental part of the way people think and understand the world. 
-Computational thinking means creating and making use of different levels of abstraction, to understand and solve problems more effectively. 
+Being able to black box the details of the underlying systematic interactions and focus on the system as a whole makes it possible to understand the characteristics of the system in aggregate, which is sometimes exactly the data needed for the problem at hand. 
 
-Computational thinking means thinking algorithmically and with the ability to apply mathematical concepts such as induction to develop more efficient, fair, and secure solutions. 
+Computational tools such as models and simulations are especially useful in such investigations, as they can auto- mate pieces of an investigation, take precise measurements, and model systems for further analysis and hypothesis testing.
 
-Computational thinking means understanding the consequences of scale, not only for reasons of efficiency but also for economic and social reasons.
+ Another powerful approach to facilitate students in learning about complex systems as whole can come from the use of representations (including feedback, stocks and flows, agents, and agent rules) that depict systems in a nonlinear fashion. 
 
-COMPUTING IS THE AUTOMATION OF OUR ABSTRACTION. (THEY GIVE US THE ABILITY TO SCALE)
-
-Um dos reflexos da relevância econômica da forma de pensar computacionalmente é a intensa incorporação de mestres e doutores em ciência da computação em wall street.
-
+ Students who have mastered this prac- tice will be able to pose questions about, design and carry out investigations on, and ultimately interpret and make sense of, the data gathered about a system as a single entity.
