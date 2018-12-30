@@ -329,6 +329,12 @@ INPUT imagens/Scratch_2_0_Screen_Hello_World.png
 INPUT ./imagens/Scratch_2_0_Screen_Hello_World.png
 INPUT ./imagens/Scratch_2_0_Screen_Hello_World.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
+INPUT imagens/angry-birds.png
+INPUT ./imagens/angry-birds.png
+INPUT ./imagens/angry-birds.png
+INPUT imagens/physics-tracker.png
+INPUT ./imagens/physics-tracker.png
+INPUT ./imagens/physics-tracker.png
 INPUT principal.bbl
 INPUT principal.bbl
 INPUT principal.brf
