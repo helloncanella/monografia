@@ -1,0 +1,39 @@
+WHAT IS IT? -----------
+
+This model explores the relationship between the number of gas particles and the pressure of a gas in a container with a fixed volume. The model simulates the effects of pumping up a bike tire.
+
+O objetivo dessa atividade é a simulação computacional do comportamento das partículas no interior de um pneu bombeado com ar, modelado como um container com paredes e volume fixos que encerra uma porção de gás ideal. Na figura \ref{fig:pneu-volume} ilustramos o conjunto.
+
+\begin{figure}[!htb]
+  \caption{Simulação de um pneu bombeado com ar, modelado como um gás ideal}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{imagens/pneu-volume}
+  \end{center}
+  \label{fig:pneu-volume}
+\end{figure}
+
+A condição de gás ideal exige que consideremos as colisões nas paredes como elásticas, e que desprezemos qualquer interação à distância (energia potencial) entre suas partículas, que portarão, portanto, apenas energia cinética.
+
+Com esse modelo esperamos que os alunos possam investigar a relação entre numero de partículas e pressão.
+
+This model helps students study the representations of gas pressure in the model and the dynamics of the gas particles that lead to increases and decreases in pressure. In this model, students can also look at the relationship between number of particles and pressure. In addition, one can follow the average number of wall hits in one model clock tick. When the particles hit the walls the walls change their color temporarily. These models have been adapted from the model GasLab Pressure Box.
+
+Particles are modeled as perfectly elastic particles with no energy except their kinetic energy - - which is due to their motion. Collisions between particles are elastic. Particles speed can be visualized by color coding them according to speed -- for example: blue for slow, green for medium, and red for high speeds.
+
+
+
+In this model, the gas container (a bike tire represented by a box) has a fixed volume. The number of particles can be varied initially and by "pumping up the bike tire" by adding particles through a valve on the left wall of the box.
+
+This model helps students study the representations of gas pressure in the model and the dynamics of the gas particles that lead to increases and decreases in pressure. In this model, students can also look at the relationship between number of particles and pressure. In addition, one can follow the average number of wall hits in one model clock tick. When the particles hit the walls the walls change their color temporarily. These models have been adapted from the model GasLab Pressure Box.
+
+HOW IT WORKS ------------
+
+Particles are modeled as perfectly elastic particles with no energy except their kinetic energy - - which is due to their motion. Collisions between particles are elastic. Particles speed can be visualized by color coding them according to speed -- for example: blue for slow, green for medium, and red for high speeds.
+
+Students investigate the quantitative relationship between the number of particles in a container and the pressure inside. Students collect data from the model and develop a mathematical model of the relationship. From a graph they create, they note that the relationship between this number and pressure is a linear one and develop an algebraic representation (a linear equation) of this relationship. 
+
+----------------------
+
+Students are introduced to the idea of the average number of wall hits per particle and they find out that this value is independent of the number of particles. This finding is connected back to the linear equation the student discovered and shown that such a finding is predicted by the previous equation. The connection between the average number of wall hits per particle and the slope of the linear equation is explained and students are shown how such constants can be calculated in a linear relationship. Students then use the equation to predict and test their prediction for new pressure values. 
+
+Lastly, students reflect on many of the assumptions that they are now more familiar with in the computer model vs. the real system (a real bike tire) at this point. 

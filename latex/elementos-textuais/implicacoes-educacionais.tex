@@ -510,6 +510,18 @@ A geração de dados pelo modelo físico simulado pelo jogo e a posterior coleta
 
 Já o uso do \textit{tracker} para descoberta dos valores de propriedades físicas e das equações de movimento, bem como a análise crítica do modelo em função do que é encontrado inserem-se na categoria ``Prática de simulação e modelagem'' (subseção \ref{praticas-de-simulacao-e-modelagem}), sendo a primeira prática classificada como ``Uso de modelos computacionais para encontrar e testar uma solução''  e a segunda como ``Avaliação de modelos computacionais''.   
 
-% O uso do tracker para a descoberta de propriedades e equações de movimento pode ser enquadrada como  ``Uso de modelos computacionais para encontrar e testar uma solução'' . O julgamento qualitativo do modelo decorrente do valor descoberto para a constante gravitacional insere-se, por sua vez, na categoria ``Prática de simulação e modelagem'' (subseção \ref{praticas-de-simulacao-e-modelagem}) no item ``Avaliação de modelos computacionais'. 
+\subsection{Modelagem do bombeamento em um pneu}
 
-\subsection{Gases ideais como suporte ao pensamento sistêmico}
+O objetivo dessa atividade é a simulação computacional do comportamento das partículas no interior de um pneu bombeado com ar, modelado como um container com paredes e volume fixos que encerra uma porção de gás ideal. Na figura \ref{fig:pneu-volume} ilustramos o conjunto.
+
+\begin{figure}[!htb]
+  \caption{Simulação de um pneu bombeado com ar, modelado como um gás ideal}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{imagens/pneu-volume}
+  \end{center}
+  \label{fig:pneu-volume}
+\end{figure}
+
+A condição de gás ideal exige que consideremos as colisões nas paredes como elásticas, e que desprezemos qualquer interação à distância (energia potencial) entre suas partículas, que portarão, portanto, apenas energia cinética.
+
+Com esse modelo esperamos que os alunos possam investigar a relação entre numero de partículas e pressão.

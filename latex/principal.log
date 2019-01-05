@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  2 JAN 2019 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  5 JAN 2019 19:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1151,7 +1151,13 @@ File: imagens/physics-tracker.png Graphic file (type png)
 <use imagens/physics-tracker.png>
 Package pdftex.def Info: imagens/physics-tracker.png  used on input line 502.
 (pdftex.def)             Requested size: 364.00139pt x 204.87715pt.
-) [44 <./imagens/physics-tracker.png>] (./principal.bbl (./principal.brf)
+ [44 <./imagens/physics-tracker.png>]
+<imagens/pneu-volume.png, id=661, 643.40375pt x 644.4075pt>
+File: imagens/pneu-volume.png Graphic file (type png)
+<use imagens/pneu-volume.png>
+Package pdftex.def Info: imagens/pneu-volume.png  used on input line 520.
+(pdftex.def)             Requested size: 364.00139pt x 364.58257pt.
+) [45 <./imagens/pneu-volume.png>] (./principal.bbl (./principal.brf)
 \tf@brf=\write6
 \openout6 = `principal.brf'.
 
@@ -1166,12 +1172,12 @@ Overfull \hbox (23.59468pt too wide) in paragraph at lines 55--55
 \T1/lmr/m/n/12 (-20) arti^^\cial-[]intelligence-[]heres-[]what-[]you-[]need-[]to-[]know-[]to-[]understand-[]how-[]machines-[]learn-[]72004>[]$[][]. 
  []
 
-[45
+[46
 
 
-] [46]) 
+] [47]) 
 AED: lastpage setting LastPage
-[47]
+[48]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (./principal.aux (./elementos-textuais/computadores-e-a-pratica-cientifica.aux) (./elementos-textuais/pensamento-computacional.aux) (./elementos-textuais/implicacoes-educacionais.aux))
@@ -1186,18 +1192,18 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 18501 strings out of 492649
- 282393 string characters out of 6129623
- 569698 words of memory out of 5000000
- 21696 multiletter control sequences out of 15000+600000
+ 18509 strings out of 492649
+ 282560 string characters out of 6129623
+ 569881 words of memory out of 5000000
+ 21701 multiletter control sequences out of 15000+600000
  83003 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,20n,94p,1017b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on principal.pdf (48 pages, 4886761 bytes).
+Output written on principal.pdf (49 pages, 4919773 bytes).
 PDF statistics:
- 915 PDF objects out of 1000 (max. 8388607)
- 768 compressed objects within 8 object streams
- 172 named destinations out of 1000 (max. 500000)
- 24828 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 924 PDF objects out of 1000 (max. 8388607)
+ 774 compressed objects within 8 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 24833 words of extra memory for PDF output out of 24883 (max. 10000000)
 
