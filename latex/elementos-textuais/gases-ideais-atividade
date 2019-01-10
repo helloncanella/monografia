@@ -5,7 +5,7 @@ This model explores the relationship between the number of gas particles and the
 O objetivo dessa atividade é a simulação computacional do comportamento das partículas no interior de um pneu bombeado com ar, modelado como um container com paredes e volume fixos que encerra uma porção de gás ideal. Na figura \ref{fig:pneu-volume} ilustramos o conjunto.
 
 \begin{figure}[!htb]
-  \caption{Simulação de um pneu bombeado com ar, modelado como um gás ideal}
+  \caption{simulação de um pneu bombeado com ar, modelado como um gás ideal}
   \begin{center}
     \includegraphics[width=0.8\textwidth]{imagens/pneu-volume}
   \end{center}
@@ -14,7 +14,37 @@ O objetivo dessa atividade é a simulação computacional do comportamento das p
 
 A condição de gás ideal exige que consideremos as colisões nas paredes como elásticas, e que desprezemos qualquer interação à distância (energia potencial) entre suas partículas, que portarão, portanto, apenas energia cinética.
 
-Com esse modelo esperamos que os alunos possam investigar a relação entre numero de partículas e pressão.
+Com esse modelo esperamos que os alunos possam estudar fatores que levam à variação da pressão no interior do container, bem como a relação entre essa grandeza com o número de partículas lá encerradas.
+
+Como suporte à atividade pode-se utilizar um modelo programado com o auxílio do software Netlogo \cite{netlogo} disponível para download por \citeonline{PressureAndNumberNetlogo}. Na figura \ref{fig:numero-e-pressao}, ilustramos o ambiente de exploração do modelo a ser utilizado nessa atividade.
+
+\begin{figure}[!htb]
+  \caption{Modelo de gás ideal e ambiente de suporte à sua exploração a ser utilizado nessa atividade}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{imagens/numero-e-pressao}
+  \end{center}
+  \label{fig:numero-e-pressao}
+\end{figure}
+
+Um dos elementos que tornam interessante esta atividade é o painel de controle como qual pode-se variar os parâmetros do modelo, tais como o número inicial de partículas, quantidade a ser adicionada e velocidade de simulação. Outro aspecto relevante é a exposição gráfica dos dados gerados pela simulação, e a possibilidade exportá-los para formatos compatíveis com softwares de tabelamento populares, como o \textit{Excel}. Na figura \ref{exportar-dados}, demonstramos como fazê-lo.
+
+\begin{figure}[!htb]
+  \caption{Exportação dos dados da simulação para formatos compatíveis com \textit{Excel}}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{imagens/exportar-dados}
+  \end{center}
+  \label{fig:exportar-dados}
+\end{figure}
+
+De porte dos dados para ``número de partículas vs tempo'' e ``pressão vs tempo'', os alunos podem traçar um gráfico relacionando a pressão e o número de partículas contidos no container. O que se espera é que eles descubram, por conta própria, a relação linear entre entre essas duas grandezas.
+
+
+
+
+
+
+
+
 
 This model helps students study the representations of gas pressure in the model and the dynamics of the gas particles that lead to increases and decreases in pressure. In this model, students can also look at the relationship between number of particles and pressure. In addition, one can follow the average number of wall hits in one model clock tick. When the particles hit the walls the walls change their color temporarily. These models have been adapted from the model GasLab Pressure Box.
 

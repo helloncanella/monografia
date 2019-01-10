@@ -338,6 +338,12 @@ INPUT ./imagens/physics-tracker.png
 INPUT imagens/pneu-volume.png
 INPUT ./imagens/pneu-volume.png
 INPUT ./imagens/pneu-volume.png
+INPUT imagens/numero-e-pressao.png
+INPUT ./imagens/numero-e-pressao.png
+INPUT ./imagens/numero-e-pressao.png
+INPUT imagens/exportar-dados.png
+INPUT ./imagens/exportar-dados.png
+INPUT ./imagens/exportar-dados.png
 INPUT principal.bbl
 INPUT principal.bbl
 INPUT principal.brf

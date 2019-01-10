@@ -110,7 +110,7 @@ Dispon{\'\i}vel em:
 
 \bibitem[Piwek 2016]{Piwek2016}
 \abntrefinfo{Piwek}{PIWEK}{2016}
-{PIWEK, P. {Introduction to Computational Thinking}.
+{PIWEK, P. Introduction to computational thinking.
 2016.
 Dispon{\'\i}vel em: \url{http://doer.col.org/handle/123456789/6196}.}
 
@@ -163,6 +163,15 @@ ISSN 15731839.}
 \bibitem[Wilensky 1999]{netlogo}
 \abntrefinfo{Wilensky}{WILENSKY}{1999}
 {WILENSKY, U. \emph{Netlogo}. 1999. Http://ccl.northwestern.edu/netlogo/.}
+
+\bibitem[Wilensky 2004]{PressureAndNumberNetlogo}
+\abntrefinfo{Wilensky}{WILENSKY}{2004}
+{WILENSKY, U. {NetLogo Connected Chemistry 4 Number and Pressure model.}
+Center for Connected Learning and Computer-Based Modeling, Northwestern
+  University, 2004.
+Dispon{\'\i}vel em:
+  \url{http://ccl.northwestern.edu/netlogo/models/ConnectedChemistry4NumberandPressure}.
+  Acesso em: 10 de Janeiro de 2019.}
 
 \bibitem[Wing 2006]{wing2006}
 \abntrefinfo{Wing}{WING}{2006}
