@@ -28,13 +28,39 @@ Para o mapeamento desses fatores no modelo foi utilizado um software de modelage
 Durante execução desta atividade tais agentes foram tomados como uma abstração dos estudantes, e a quantidade inserida no modelo correspondeu à exatamente ao de matriculados na escola. O movimento atribuídos às entidades teve por finalidade a criação de uma representação simplificada do movimento dos alunos de uma sala a outra. Já a delimitação espacial do ambiente buscou a reprodução do espaço físico da instituição. A elaboração deste modelo está ilustrado na imagem
 
 \begin{figure}[!htb]
-  \caption{}
+  \caption{Construção da representação do ambiente escolar no \textit{startlogo}}
   \begin{center}
-    \includegraphics[width=0.8\textwidth]{imagens/layout-startlogo}
+    \includegraphics[width=0.8\textwidth]{imagens/layout-starlogo}
   \end{center}
   \label{fig:starlogo}
 \end{figure}
 
+O controle de parâmetros do modelo foi feito pelo a inserção de \texit{sliders}. Com eles foram possível, por exemplo, ajustar o número de alunos ou agentes inicialmente infectados, e controlar a grau de virulência da doença. Além do número inicial de agentes infectados, para a análise da velocidade de espalhamento foi tomada em consideração a frequência de contato entre os agentes. 
+
+O evolução da simulação foi posta em curso por um \textit{loop} ou, em português, laço infinito\footnote{\textit{loops} ou laços infinitos são construtos computacionais nos quais um conjunto de instruções são executadas infinitamente, ou pelo menos uma até que condição de parada seja satisfeita.} com o qual o software de modelagem atualizava o estado dos agentes, especificado pela variáveis localização e cor - indicando se o indivíduo está saudável ou doente. 
+
+Dada o comportamento randômico de cada agente, a possibilidade de automatizar modelo, conforme ressalta \citeonline{Lee2011}, permitiu que um conjunto de experimentos fossem feitos com as as mesmas condições iniciais, possibilitando o acúmulo de amostras diferentes, e consequentemente a obtenção de probabilidades para certos resultados. 
+
+
+
+
+
+
+e que ao final de cada um, possibilitando a coleta de uma amostra, e .
+
+
+
+Because agent-based models involve randomness, for example, the initial location of infected individuals is chosen randomly, they tell us the probabilities of certain outcomes rather than predictions.
+
+Automa- tion was used to execute multiple “runs” of the experiment with the same parameter settings in order to attain the probabilities of certain outcomes.
+
+Once the simulations were run and data on the number of infected individuals after a fi xed number of time steps were collected, students refl ected on the outcomes.
+
+In some cases, the students were able to analyze their models, the assumptions and abstractions made, by comparing the model generated data with data collected within their schools.
+
+For instance, one group compared the data generated using their model that simulated the spread of swine flu with attendance/absenteeism records collected during a period of time when swine fl u was known to be circulating within their school.
+
+Analysis of this sort may lead to reconsideration of what factors to include in a model and cycle back to the beginning of the process described above.
 
 See Figure 1.
 
@@ -51,9 +77,21 @@ To make the model a testbed capable of running experiments, it was equipped with
 One slider controlled the number of initially infected agents and another controlled the virulence of the contagious element.
 
 See Figure 2.
- 
 
 Automation was used in a number of ways.
+
+ 
+
+A engine dA evolução da simulação foi  por 
+
+A automação do estado dos agentes - localização e cor, indicando se o indivíduo está saudável ou doente - 
+
+
+
+
+foi ao final de cada loop pelo \textit{Startlogo}, que ao finalizar um loop 
+
+
 
 The “program” itself automated “stepping through” or advancing the simulation through the use of a run loop that updated each agent’s state, location, and color (representing sick or healthy) at each time step.
 
