@@ -12,7 +12,6 @@ Within these parameters students designed and created models as testbeds to answ
 
 For example, as part of the Project GUTS unit on Epidemiology, a group of students wanted to know if a disease would spread throughout their school population given the layout of the school, the number of students, the movement of the students, the virulence of the disease, and the number of students initially infected.
 
-
 A atividade em questão foi reportada por \citeonline{Lee2011}, na qual um grupo de estudantes elaboram um modelo epidemiológico com o propósito de investigar se uma doença poderia se espalhar entre a população escolar em função do layout da construção, do número e movimento dos estudantes, da virulência da doença e do número de pessoas inicialmente infectados.
  
 Para o mapeamento desses fatores no modelo foi utilizado um software de modelagem baseado em agentes (entidades ou atores com liberdade de movimento espacial, geralmente bidimensional, definida por regras previamente estabelecidas) chamado \textit{StarLogo TNG}\footnote{Disponível em \href{http://web.mit.edu/mitstep/starlogo-tng/download/index.html}{http://web.mit.edu/mitstep/starlogo-tng/download/index.html}} (fig. \ref{fig:starlogo}).
@@ -25,7 +24,7 @@ Para o mapeamento desses fatores no modelo foi utilizado um software de modelage
   \label{fig:starlogo}
 \end{figure}
 
-Durante execução desta atividade tais agentes foram tomados como uma abstração dos estudantes, e a quantidade inserida no modelo correspondeu à exatamente ao de matriculados na escola. O movimento atribuídos às entidades teve por finalidade a criação de uma representação simplificada do movimento dos alunos de uma sala a outra. Já a delimitação espacial do ambiente buscou a reprodução do espaço físico da instituição. A elaboração deste modelo está ilustrado na imagem
+Durante execução desta atividade tais agentes foram tomados como uma abstração dos estudantes, e a quantidade deles inserida no modelo correspondeu à exatamente ao de matriculados na escola. O movimento atribuídos às entidades teve por finalidade a criação de uma representação simplificada do movimento dos alunos de uma sala a outra. Já a delimitação espacial do ambiente buscou a reprodução do espaço físico da instituição. A elaboração deste modelo está ilustrado na imagem
 
 \begin{figure}[!htb]
   \caption{Construção da representação do ambiente escolar no \textit{startlogo}}
@@ -39,41 +38,39 @@ O controle de parâmetros do modelo foi feito pelo a inserção de \texit{slider
 
 O evolução da simulação foi posta em curso por um \textit{loop} ou, em português, laço infinito\footnote{\textit{loops} ou laços infinitos são construtos computacionais nos quais um conjunto de instruções são executadas infinitamente, ou pelo menos uma até que condição de parada seja satisfeita.} com o qual o software de modelagem atualizava o estado dos agentes, especificado pela variáveis localização e cor - indicando se o indivíduo está saudável ou doente. 
 
-Dada o comportamento randômico de cada agente, a possibilidade de automatizar modelo, conforme ressalta \citeonline{Lee2011}, permitiu que um conjunto de experimentos fossem feitos com as as mesmas condições iniciais, possibilitando o acúmulo de amostras diferentes, e consequentemente a obtenção de probabilidades para certos resultados. 
+Dada o comportamento randômico de cada agente, a possibilidade de automatizar o modelo, conforme ressalta \citeonline{Lee2011}, permitiu que um conjunto de experimentos fossem feitos com as as mesmas condições iniciais, possibilitando o acúmulo de amostras diferentes, e consequentemente a obtenção de probabilidades para certos resultados. Aos primeiros resultados seguiram as primeiras reavaliações pelos alunos do modelo criado, viabilizadas pela comparação com o número de faltas registrado pela direção da escola durante um surto de gripe suína. 
 
+Nesse contexto, entende-se por reavaliar a tarefa de analisar as suposições embutidas no modelo e como elas justificam, ou não, o comportamento do fenômeno analisado, expresso nos dados reais - neste caso, o número de alunos faltosos. Assim, pode-se fechar um primeiro ciclo, onde reflexões sobre a qualidade do modelo subsidiam o seu refinamento em rodadas seguintes.
 
-
-
-
-
-In some cases, the students were able to analyze their models, the assumptions and abstractions made, by comparing the model generated data with data collected within their schools.
-
-For instance, one group compared the data generated using their model that simulated the spread of swine flu with attendance/absenteeism records collected during a period of time when swine fl u was known to be circulating within their school.
-
-Analysis of this sort may lead to reconsideration of what factors to include in a model and cycle back to the beginning of the process described above.
-
-Das competências elencadas na taxonomia, a breve descrição dessa atividade nos permite identificar as seguintes:
+A breve descrição dessa atividade nos permite identificar o exercício das seguintes competências:
 
 \begin{enumerate}
+  \item \textbf{Prática de dados (subseção \ref{sub-sec:pratica-de-dados})}
+    \begin{enumerate}
+      \item \textit{Visualização de dados} -- competência materializada na diferenciação em cores dos agentes doentes e saudáveis.
+    \end{enumerate}
 
   \item \textbf{Práticas de simulação e modelagem (subseção \ref{sub-sec:praticas-de-simulacao-e-modelagem})}
     \begin{enumerate}
-      \item \textit{O uso de um modelo computacional para a compreensão de um conceito} - nesse caso a noção de pressão.
+      \item \textit{Uso de modelos computacionais para encontrar e testar uma solução} -- a criação do modelo proposto pela atividade permite que os alunos proponham e teste nele fatores que influenciam no comportamento do fenômeno de transmissão de gripe.
+
+      \item \textit{Avaliação de modelos computacionais} -- o exercício dessa competência se faz necessária na etapa da reavaliação, onde alunos comparam os dados gerados pela simulação com os de alunos faltosos e podem, assim, refletir sobre as suposições embutidas no modelo, durante o seu primeiro ciclo de construção, refinando desse modo suas hipóteses.
+
+      \item \textit{Desenho de modelos computacionais} -- competência implicada na tomada de todas as decisões sobre o que incluir no modelo. Desde a diferenciação em cores dos agentes saudáveis e doentes até o desenho do layout da escola, passando também pela a definição do número daqueles inicialmente infectados.
+      
+      \item \textit{Construção de modelos computacionais} -- 
+    
     \end{enumerate}
 
-  \item \textbf{Prática de dados (subseção \ref{sub-sec:pratica-de-dados})}
-    \begin{enumerate}
-      \item \textit{Geração de dados por um modelo computacional} -- exibidos nos gráficos ``número de partículas \textit{vs} tempo'' e ``pressão \textit{vs} tempo'' (fig. \ref{fig:numero-e-pressao}), cuja exportação pode ser feita conforme a figura \ref{fig:exportar-dados}.
 
-      \item \textit{Análise e visualização gráfica de dados} -- necessárias para a exploração das relações entre o número de partículas e a pressão.
-    \end{enumerate}
 
-  \item \textbf{Práticas de pensamento sistêmico (subseção \ref{sub-sec:pensamento-sistemico})}
 
-    \begin{enumerate}
-      \item \textit{Investigando o sistema como um todo} -- o uso do conceito de pressão ao longo de toda a atividade exige que o estudante enxergue o sistema de partículas na sua totalidade.        
-      \item \textit{Pensamento em camadas} -- necessário para estabelecer relação entre o comportamento individual das partículas (variação de momento decorrente da colisão com paredes) e emergência de propriedade coletiva (pressão).
-    \end{enumerate}
+  % \item \textbf{Práticas de pensamento sistêmico (subseção \ref{sub-sec:pensamento-sistemico})}
+
+  %   \begin{enumerate}
+  %     \item \textit{Investigando o sistema como um todo} -- o uso do conceito de pressão ao longo de toda a atividade exige que o estudante enxergue o sistema de partículas na sua totalidade.        
+  %     \item \textit{Pensamento em camadas} -- necessário para estabelecer relação entre o comportamento individual das partículas (variação de momento decorrente da colisão com paredes) e emergência de propriedade coletiva (pressão).
+  %   \end{enumerate}
   
 \end{enumerate}
 
