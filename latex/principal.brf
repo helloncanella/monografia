@@ -44,9 +44,9 @@
 \backcite {Weintrop2016}{{18}{3}{chapter.3}}
 \backcite {netlogo}{{19}{3}{chapter.3}}
 \backcite {ProbLab}{{19}{3}{chapter.3}}
-\backcite {Lee:2011:CTY:1929887.1929902}{{19}{3}{chapter.3}}
-\backcite {Lee:2011:CTY:1929887.1929902, Barr2011}{{19}{3}{chapter.3}}
-\backcite {Lee:2011:CTY:1929887.1929902, Barr2011}{{19}{3}{chapter.3}}
+\backcite {Lee2011}{{19}{3}{chapter.3}}
+\backcite {Lee2011, Barr2011}{{19}{3}{chapter.3}}
+\backcite {Lee2011, Barr2011}{{19}{3}{chapter.3}}
 \backcite {Weintrop2016}{{19}{3}{chapter.3}}
 \backcite {resnick}{{19}{3}{chapter.3}}
 \backcite {resnick}{{20}{3}{Item.7}}
@@ -113,3 +113,5 @@
 \backcite {netlogo}{{45}{3.3.2}{figure.caption.26}}
 \backcite {PressureAndNumberNetlogo}{{45}{3.3.2}{figure.caption.26}}
 \backcite {Novak}{{46}{3.3.2}{figure.caption.28}}
+\backcite {Lee2011}{{48}{3.3.3}{subsection.3.3.3}}
+\backcite {Lee2011}{{49}{3.3.3}{figure.caption.30}}

@@ -16,10 +16,10 @@ A literatura tem demonstrado de diversas formas o como a aprendizagem de program
 
 Em um estudo citado por \citeonline{Weintrop2016}, descobriu-se que a introdução de programação no contexto da modelagem de fenômenos físicos e químicos, durante as atividades de alunos de graduação, resultaram no aprendizado mais efetivo de programação, e no aumento do engajamento com a área de domínio das tarefas.
 
-A literatura também nos apresenta outros exemplos de contextualização de atividades computacionais com o ensino de ciências. Dentre algumas propostas práticas, podemos destacar o uso eficiente do software Netlogo \cite{netlogo} na introdução de noções de probabilidade e estatística, como relatado por \citeonline{ProbLab}, e na modelagem de fenômenos epidemiológicos, tal como reportado em \cite{Lee:2011:CTY:1929887.1929902}.
+A literatura também nos apresenta outros exemplos de contextualização de atividades computacionais com o ensino de ciências. Dentre algumas propostas práticas, podemos destacar o uso eficiente do software Netlogo \cite{netlogo} na introdução de noções de probabilidade e estatística, como relatado por \citeonline{ProbLab}, e na modelagem de fenômenos epidemiológicos, tal como reportado em \cite{Lee2011}.
 
 % O enriquecimento das atividades em sala dae aula não tem sido o único
-Vários estudos apontam que o enriquecimento trazido por essa abordagem conjunta, associada com o caráter ``mão na massa'' de muitas dessas atividades, produz impactos positivos na forma como os alunos percebem as aulas de ciências \cite{Lee:2011:CTY:1929887.1929902, Barr2011}. A sensação de estar resolvendo um problema autêntico com real aplicabilidade e, em muitos casos, inserido na realidade do qual fazem parte, produz aumentos sensíveis dos níveis de engajamento.
+Vários estudos apontam que o enriquecimento trazido por essa abordagem conjunta, associada com o caráter ``mão na massa'' de muitas dessas atividades, produz impactos positivos na forma como os alunos percebem as aulas de ciências \cite{Lee2011, Barr2011}. A sensação de estar resolvendo um problema autêntico com real aplicabilidade e, em muitos casos, inserido na realidade do qual fazem parte, produz aumentos sensíveis dos níveis de engajamento.
 
 \citeonline{Weintrop2016} sugere que o aumento da atratividade dessas disciplinas, apresentadas dessa forma, também pode favorecer o aumento da representação de grupos minoritários nos meios científicos, tais como mulheres, negros e transgêneros.
 
@@ -332,7 +332,7 @@ Abaixo listamos as cinco práticas incluídas na taxonomia, referentes à simula
   \citeonline{Weintrop2016}, sugere que estudantes que dominarem essa prática serão capazes de implementar novos comportamento de modelos, seja por criação ou extensão, utilizando tanto uma linguagem de programação quanto \textit{softwares} prontos, que oferecem suporte à modelagem.
 \end{enumerate}
 
-\subsection{Prática de resolução de problemas computacionais}
+\subsection{Prática de resolução de problemas computacionais}\label{sub-sec:pratica-de-resolucao-de-problemas-computacionais} 
 
 Nesta etapa de elaboração da taxonomia \citeonline{Weintrop2016}, concentra seus esforços na apresentação das práticas de resolução de problemas trazidas pela ciência da computação. Seguem destrinchadas cada uma delas. 
 
@@ -581,5 +581,59 @@ Quanto à taxonomia, podemos notar nesta atividade a possibilidade de exercício
 
 \subsection{Alunos faltosos como contexto de um modelo epidemiológico}
 
+A atividade em questão foi reportada por \citeonline{Lee2011}, na qual um grupo de estudantes elaboram um modelo epidemiológico com o propósito de investigar se uma doença poderia se espalhar entre a população escolar em função do layout da construção, do número e movimento dos estudantes, da virulência da doença e do número de pessoas inicialmente infectados.
+ 
+Para o mapeamento desses fatores no modelo foi utilizado um software de modelagem baseado em agentes (entidades ou atores com liberdade de movimento espacial, geralmente bidimensional, definida por regras previamente estabelecidas) chamado \textit{StarLogo TNG}\footnote{Disponível em \href{http://web.mit.edu/mitstep/starlogo-tng/download/index.html}{http://web.mit.edu/mitstep/starlogo-tng/download/index.html}} (fig. \ref{fig:starlogo}).
 
+\begin{figure}[!htb]
+  \caption{Imagem do \textit{software} de modelagem \textit{Starlogo}, desenvolvido pelo \textit{MIT Media Lab}}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{imagens/starlogo}
+  \end{center}
+  \label{fig:starlogo}
+\end{figure}
+
+Durante a execução desta atividade, tais agentes foram tomados como uma abstração dos estudantes, e a quantidade deles inserida no modelo correspondeu à exatamente ao de matriculados na escola. A atribuição de movimento às entidades teve por finalidade a criação de uma representação simplificada do movimento dos alunos de uma sala à outra. Já com a delimitação espacial do ambiente, buscou-se a reprodução do espaço físico da instituição. A elaboração deste modelo está ilustrado na figura \ref{fig:starlogo}.
+
+\begin{figure}[!htb]
+  \caption{Construção da representação do ambiente escolar no \textit{Startlogo}. Na mesma imagem é possível também distinguir pontos vermelhos e verdes, representando, respectivamente, alunos doentes e saudáveis.}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{imagens/layout-starlogo}
+  \end{center}
+  \label{fig:starlogo}
+\end{figure}
+
+O controle de parâmetros do modelo foi feito pelo a inserção de \textit{sliders}. Com eles foram possíveis, por exemplo, ajustar o número de alunos ou agentes inicialmente infectados, e controlar o grau de virulência da doença. Além do número inicial de agentes infectados, para a análise da velocidade de espalhamento foi tomada em consideração a frequência de contato entre os agentes. 
+
+Já a evolução da simulação foi posta em curso por um \textit{loop} ou, em português, um laço infinito\footnote{\textit{Loops} ou laços infinitos são construtos computacionais nos quais uma sequência de instruções são executadas infinitamente, ou pelo menos uma até que condição de parada seja satisfeita.} com o qual o software de modelagem atualizava o estado dos agentes, especificado pela variáveis localização e cor - indicando se o indivíduo está saudável ou doente. 
+
+Dada o comportamento randômico de cada agente, a possibilidade de automatizar o modelo, conforme ressalta \citeonline{Lee2011}, permitiu que um conjunto de experimentos fossem feitos com as as mesmas condições iniciais, possibilitando o acúmulo de amostras diferentes, e consequentemente a obtenção de probabilidades para certos resultados. Aos primeiros também seguiram as primeiras reavaliações pelos alunos do modelo criado, viabilizadas pela comparação com o número de faltas registrado pela direção da escola durante um surto de gripe suína. 
+
+Nesse contexto, entende-se por reavaliar a tarefa de analisar as suposições embutidas no modelo e como elas justificam, ou não, o comportamento do fenômeno analisado, expresso nos dados reais - neste caso, o número de alunos faltosos. Assim, pode-se fechar um primeiro ciclo, onde reflexões sobre a qualidade do modelo subsidiam o seu refinamento em rodadas seguintes.
+
+A breve descrição dessa atividade nos permite identificar o exercício das seguintes competências:
+
+\begin{enumerate}
+  \item \textbf{Prática de dados (subseção \ref{sub-sec:pratica-de-dados})}
+    \begin{enumerate}
+      \item \textit{Visualização de dados} -- competência materializada na diferenciação em cores dos agentes doentes e saudáveis.
+    \end{enumerate}
+
+  \item \textbf{Práticas de simulação e modelagem (subseção \ref{sub-sec:praticas-de-simulacao-e-modelagem})}
+    \begin{enumerate}
+      \item \textit{Uso de modelos computacionais para encontrar e testar uma solução} -- a criação do modelo proposto pela atividade permite que os alunos proponham e teste nele fatores que influenciam no comportamento do fenômeno de transmissão de gripe.
+
+      \item \textit{Avaliação de modelos computacionais} -- o exercício dessa competência se faz necessária na etapa da reavaliação, onde alunos comparam os dados gerados pela simulação e refletem sobre as suposições embutidas no modelo. Espera-se que essa atitude os ajude a refinar as suas hipóteses. 
+     
+      \item \textit{Desenho de modelos computacionais} -- competência implicada na tomada de todas as decisões sobre o que incluir no modelo. Desde a diferenciação em cores dos agentes saudáveis e doentes até o desenho do layout da escola, passando também pela a definição do número daqueles inicialmente infectados.
+
+      \item \textit{Construção de modelos computacionais} -- enquanto o desenho de um modelo computacional envolve a tomada de decisões sobre o que nele incluir, a sua construção requer saber expressar os aspectos planejados, usando as ferramentas computacionais disponíveis. No caso desta atividade, o estudante tem a oportunidade de exercitar esta competência ao explorar todas possibilidades oferecidas pelo software de modelagem para execução do modelo elaborado. 
+    \end{enumerate}
+
+  \item \textbf{Prática de resolução de problemas computacionais (subseção \ref{sub-sec:pratica-de-resolucao-de-problemas-computacionais})} 
+  
+  \begin{enumerate}
+    \item \textit{Construção de abstrações computacionais} -- o exercício dessa competências se expressa na criação de representações, tais como o movimento dos agentes simbolizando a dos alunos indo de um ambiente à outro da escola e o uso de cores para expressar os estados ``saudável'' e ``doente''.
+  \end{enumerate}
+\end{enumerate}
 
