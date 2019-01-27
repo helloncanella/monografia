@@ -18,19 +18,19 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: elementos-postextuais/referencias.bib
 Warning--entry type for "pressey" isn't style-file defined
---line 128 of file elementos-postextuais/referencias.bib
+--line 134 of file elementos-postextuais/referencias.bib
 Warning--entry type for "resnick" isn't style-file defined
---line 144 of file elementos-postextuais/referencias.bib
+--line 150 of file elementos-postextuais/referencias.bib
 Warning--entry type for "Hatch" isn't style-file defined
---line 222 of file elementos-postextuais/referencias.bib
+--line 228 of file elementos-postextuais/referencias.bib
 Warning--entry type for "Purtill" isn't style-file defined
---line 229 of file elementos-postextuais/referencias.bib
+--line 235 of file elementos-postextuais/referencias.bib
 Warning--entry type for "Bloomberg" isn't style-file defined
---line 239 of file elementos-postextuais/referencias.bib
+--line 245 of file elementos-postextuais/referencias.bib
 Warning--entry type for "Escobar" isn't style-file defined
---line 258 of file elementos-postextuais/referencias.bib
+--line 264 of file elementos-postextuais/referencias.bib
 Warning--entry type for "Vutha" isn't style-file defined
---line 268 of file elementos-postextuais/referencias.bib
+--line 274 of file elementos-postextuais/referencias.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -40,45 +40,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 27 entries,
+You've used 28 entries,
             6714 wiz_defined-function locations,
-            1392 strings with 15051 characters,
-and the built_in function-call counts, 45534 in all, are:
-= -- 5703
-> -- 580
+            1398 strings with 15250 characters,
+and the built_in function-call counts, 46318 in all, are:
+= -- 5766
+> -- 612
 < -- 1413
-+ -- 1640
-- -- 180
-* -- 2682
-:= -- 5527
-add.period$ -- 112
-call.type$ -- 27
-change.case$ -- 224
-chr.to.int$ -- 48
-cite$ -- 26
-duplicate$ -- 5068
-empty$ -- 1534
-format.name$ -- 861
-if$ -- 8762
++ -- 1652
+- -- 190
+* -- 2735
+:= -- 5632
+add.period$ -- 115
+call.type$ -- 28
+change.case$ -- 234
+chr.to.int$ -- 49
+cite$ -- 27
+duplicate$ -- 5108
+empty$ -- 1594
+format.name$ -- 908
+if$ -- 8950
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 459
-newline$ -- 148
-num.names$ -- 125
-pop$ -- 606
+missing$ -- 479
+newline$ -- 152
+num.names$ -- 130
+pop$ -- 636
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 99
 quote$ -- 0
-skip$ -- 5150
+skip$ -- 5193
 stack$ -- 1
-substring$ -- 2103
-swap$ -- 1807
+substring$ -- 2120
+swap$ -- 1822
 text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 191
+while$ -- 197
 width$ -- 0
-write$ -- 421
+write$ -- 435
 (There were 7 warnings)
