@@ -250,6 +250,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 OUTPUT /Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/computadores-e-a-pratica-cientifica.aux
 INPUT /Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/computadores-e-a-pratica-cientifica.tex
 INPUT /Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/computadores-e-a-pratica-cientifica.tex
@@ -310,7 +311,6 @@ INPUT /Users/helloncanella/Dropbox/monografia/latex/imagens/pressey.jpg
 INPUT /Users/helloncanella/Dropbox/monografia/latex/imagens/pressey.jpg
 INPUT /Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/tabela-competencias-barr.tex
 INPUT /Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/tabela-competencias-barr.tex
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /Users/helloncanella/Dropbox/monografia/latex/imagens/scratch.jpg
 INPUT /Users/helloncanella/Dropbox/monografia/latex/imagens/scratch.jpg
 INPUT /Users/helloncanella/Dropbox/monografia/latex/imagens/scratch.jpg
