@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  7 FEB 2019 01:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  7 FEB 2019 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -965,7 +965,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 O
+l.26 O
       s alunos não aprendem por não estar motivados, mas, por sua vez, nã... [1
 
 
@@ -1190,11 +1190,14 @@ File: imagens/layout-starlogo.png Graphic file (type png)
 <use imagens/layout-starlogo.png>
 Package pdftex.def Info: imagens/layout-starlogo.png  used on input line 601.
 (pdftex.def)             Requested size: 364.00139pt x 187.18962pt.
- [51 </Users/helloncanella/Dropbox/monografia/latex/imagens/starlogo.png>] [52 </Users/helloncanella/Dropbox/monografia/latex/imagens/layout-starlogo.png>]) [53] (/Users/helloncanella/Dropbox/monografia/latex/principal.bbl (/Users/helloncanella/Dropbox/monografia/latex/principal.brf)
+ [51 </Users/helloncanella/Dropbox/monografia/latex/imagens/starlogo.png>] [52 </Users/helloncanella/Dropbox/monografia/latex/imagens/layout-starlogo.png>]) [53] (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/conclusao.tex) (/Users/helloncanella/Dropbox/monografia/latex/principal.bbl (/Users/helloncanella/Dropbox/monografia/latex/principal.brf)
 \tf@brf=\write6
 \openout6 = `principal.brf'.
 
+ [54
 
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
@@ -1205,12 +1208,11 @@ Overfull \hbox (23.59468pt too wide) in paragraph at lines 62--62
 \T1/lmr/m/n/12 (-20) arti^^\cial-[]intelligence-[]heres-[]what-[]you-[]need-[]to-[]know-[]to-[]understand-[]how-[]machines-[]learn-[]72004>[]$[][]. 
  []
 
-[54
+[55
 
-
-] [55]) 
+] [56]) 
 AED: lastpage setting LastPage
-[56]
+[57]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
  (/Users/helloncanella/Dropbox/monografia/latex/principal.aux (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/introducao.aux) (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/computadores-e-a-pratica-cientifica.aux) (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/pensamento-computacional.aux) (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/implicacoes-educacionais.aux))
@@ -1225,18 +1227,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
  ) 
 Here is how much of TeX's memory you used:
- 18641 strings out of 492649
- 286621 string characters out of 6129623
+ 18649 strings out of 492649
+ 286878 string characters out of 6129623
  573884 words of memory out of 5000000
- 21763 multiletter control sequences out of 15000+600000
+ 21766 multiletter control sequences out of 15000+600000
  83948 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,20n,94p,1017b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /Users/helloncanella/Dropbox/monografia/latex/principal.pdf (57 pages, 5958798 bytes).
+Output written on /Users/helloncanella/Dropbox/monografia/latex/principal.pdf (58 pages, 5960201 bytes).
 PDF statistics:
- 1065 PDF objects out of 1200 (max. 8388607)
- 899 compressed objects within 9 object streams
- 215 named destinations out of 1000 (max. 500000)
- 24869 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 910 compressed objects within 10 object streams
+ 217 named destinations out of 1000 (max. 500000)
+ 24877 words of extra memory for PDF output out of 24883 (max. 10000000)
 
