@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  8 FEB 2019 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  10 FEB 2019 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1083,7 +1083,7 @@ Package pdftex.def Info: imagens/elos.png  used on input line 209.
 <imagens/pressey.jpg, id=352, 592.2125pt x 264.99pt>
 File: imagens/pressey.jpg Graphic file (type jpg)
 <use imagens/pressey.jpg>
-Package pdftex.def Info: imagens/pressey.jpg  used on input line 73.
+Package pdftex.def Info: imagens/pressey.jpg  used on input line 74.
 (pdftex.def)             Requested size: 414.54591pt x 185.49173pt.
  [24] [25 </Users/helloncanella/Dropbox/monografia/latex/imagens/pressey.jpg>] (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/tabela-competencias-barr.tex
 
@@ -1093,7 +1093,7 @@ LaTeX Warning: Float too large for page by 8.93445pt on input line 37.
 <imagens/scratch.jpg, id=407, 1027.84pt x 664.4825pt>
 File: imagens/scratch.jpg Graphic file (type jpg)
 <use imagens/scratch.jpg>
-Package pdftex.def Info: imagens/scratch.jpg  used on input line 122.
+Package pdftex.def Info: imagens/scratch.jpg  used on input line 123.
 (pdftex.def)             Requested size: 1027.8375pt x 664.48087pt.
  [26] [27 </Users/helloncanella/Dropbox/monografia/latex/imagens/scratch.jpg>] (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/tabela-dez-competencias-pensamento-computacional.tex) (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/facetas-pensamento-computacional.tex [28] [29] [30] [31]
 <imagens/rollerecoster.png, id=474, 242.9075pt x 153.57375pt>
@@ -1127,7 +1127,7 @@ Overfull \hbox (282.3747pt too wide) in paragraph at lines 25--25
 <imagens/taxonomia.png, id=494, 902.37125pt x 370.38374pt>
 File: imagens/taxonomia.png Graphic file (type png)
 <use imagens/taxonomia.png>
-Package pdftex.def Info: imagens/taxonomia.png  used on input line 192.
+Package pdftex.def Info: imagens/taxonomia.png  used on input line 193.
 (pdftex.def)             Requested size: 631.65558pt x 259.26685pt.
  [34
 
@@ -1137,16 +1137,16 @@ Package pdftex.def Info: imagens/taxonomia.png  used on input line 192.
 <imagens/modelo_fisico.jpg, id=535, 903.375pt x 1355.0625pt>
 File: imagens/modelo_fisico.jpg Graphic file (type jpg)
 <use imagens/modelo_fisico.jpg>
-Package pdftex.def Info: imagens/modelo_fisico.jpg  used on input line 265.
+Package pdftex.def Info: imagens/modelo_fisico.jpg  used on input line 266.
 (pdftex.def)             Requested size: 227.5pt x 341.24599pt.
  [37 </Users/helloncanella/Dropbox/monografia/latex/imagens/modelo_fisico.jpg>] [38] [39] [40]
 <imagens/Scratch_2_0_Screen_Hello_World.png, id=603, 737.00343pt x 523.9575pt>
 File: imagens/Scratch_2_0_Screen_Hello_World.png Graphic file (type png)
 <use imagens/Scratch_2_0_Screen_Hello_World.png>
-Package pdftex.def Info: imagens/Scratch_2_0_Screen_Hello_World.png  used on input line 361.
+Package pdftex.def Info: imagens/Scratch_2_0_Screen_Hello_World.png  used on input line 362.
 (pdftex.def)             Requested size: 364.00139pt x 258.77214pt.
  [41 </Users/helloncanella/Dropbox/monografia/latex/imagens/Scratch_2_0_Screen_Hello_World.png>] [42]
-Overfull \hbox (0.91182pt too wide) in paragraph at lines 418--419
+Overfull \hbox (0.91182pt too wide) in paragraph at lines 419--420
 \T1/lmr/m/n/12 (-20) ``pensamento sistêmico'', e se diferencia essencialmente das formas de análise tradicional, com
  []
 
@@ -1154,50 +1154,50 @@ Overfull \hbox (0.91182pt too wide) in paragraph at lines 418--419
 <imagens/angry-birds.png, id=670, 1142.2675pt x 691.58376pt>
 File: imagens/angry-birds.png Graphic file (type png)
 <use imagens/angry-birds.png>
-Package pdftex.def Info: imagens/angry-birds.png  used on input line 492.
+Package pdftex.def Info: imagens/angry-birds.png  used on input line 493.
 (pdftex.def)             Requested size: 364.00139pt x 220.38268pt.
  [46 </Users/helloncanella/Dropbox/monografia/latex/imagens/angry-birds.png>]
 <imagens/physics-tracker.png, id=683, 1604.99625pt x 903.375pt>
 File: imagens/physics-tracker.png Graphic file (type png)
 <use imagens/physics-tracker.png>
-Package pdftex.def Info: imagens/physics-tracker.png  used on input line 502.
+Package pdftex.def Info: imagens/physics-tracker.png  used on input line 503.
 (pdftex.def)             Requested size: 364.00139pt x 204.87715pt.
  [47 </Users/helloncanella/Dropbox/monografia/latex/imagens/physics-tracker.png>]
 <imagens/pneu-volume.png, id=695, 643.40375pt x 644.4075pt>
 File: imagens/pneu-volume.png Graphic file (type png)
 <use imagens/pneu-volume.png>
-Package pdftex.def Info: imagens/pneu-volume.png  used on input line 520.
+Package pdftex.def Info: imagens/pneu-volume.png  used on input line 521.
 (pdftex.def)             Requested size: 364.00139pt x 364.58257pt.
 <imagens/numero-e-pressao.png, id=701, 1350.04375pt x 784.9325pt>
 File: imagens/numero-e-pressao.png Graphic file (type png)
 <use imagens/numero-e-pressao.png>
-Package pdftex.def Info: imagens/numero-e-pressao.png  used on input line 534.
+Package pdftex.def Info: imagens/numero-e-pressao.png  used on input line 535.
 (pdftex.def)             Requested size: 409.49722pt x 238.08058pt.
  [48 </Users/helloncanella/Dropbox/monografia/latex/imagens/pneu-volume.png>]
 <imagens/exportar-dados.png, id=712, 351.3125pt x 350.30875pt>
 File: imagens/exportar-dados.png Graphic file (type png)
 <use imagens/exportar-dados.png>
-Package pdftex.def Info: imagens/exportar-dados.png  used on input line 544.
+Package pdftex.def Info: imagens/exportar-dados.png  used on input line 545.
 (pdftex.def)             Requested size: 364.00139pt x 362.99222pt.
  [49 </Users/helloncanella/Dropbox/monografia/latex/imagens/numero-e-pressao.png>] [50 </Users/helloncanella/Dropbox/monografia/latex/imagens/exportar-dados.png>]
 <imagens/starlogo.png, id=744, 1440.38126pt x 773.89125pt>
 File: imagens/starlogo.png Graphic file (type png)
 <use imagens/starlogo.png>
-Package pdftex.def Info: imagens/starlogo.png  used on input line 591.
+Package pdftex.def Info: imagens/starlogo.png  used on input line 592.
 (pdftex.def)             Requested size: 364.00139pt x 195.56245pt.
 <imagens/layout-starlogo.png, id=746, 845.1575pt x 434.62375pt>
 File: imagens/layout-starlogo.png Graphic file (type png)
 <use imagens/layout-starlogo.png>
-Package pdftex.def Info: imagens/layout-starlogo.png  used on input line 601.
+Package pdftex.def Info: imagens/layout-starlogo.png  used on input line 602.
 (pdftex.def)             Requested size: 364.00139pt x 187.18962pt.
- [51 </Users/helloncanella/Dropbox/monografia/latex/imagens/starlogo.png>] [52 </Users/helloncanella/Dropbox/monografia/latex/imagens/layout-starlogo.png>]) [53] (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/conclusao.tex) (/Users/helloncanella/Dropbox/monografia/latex/principal.bbl (/Users/helloncanella/Dropbox/monografia/latex/principal.brf)
+ [51 </Users/helloncanella/Dropbox/monografia/latex/imagens/starlogo.png>] [52 </Users/helloncanella/Dropbox/monografia/latex/imagens/layout-starlogo.png>]) [53] (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/conclusao.tex [54
+
+
+]) (/Users/helloncanella/Dropbox/monografia/latex/principal.bbl (/Users/helloncanella/Dropbox/monografia/latex/principal.brf)
 \tf@brf=\write6
 \openout6 = `principal.brf'.
 
- [54
-
-
-]
+ [55]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
@@ -1208,18 +1208,18 @@ Overfull \hbox (23.59468pt too wide) in paragraph at lines 62--62
 \T1/lmr/m/n/12 (-20) arti^^\cial-[]intelligence-[]heres-[]what-[]you-[]need-[]to-[]know-[]to-[]understand-[]how-[]machines-[]learn-[]72004>[]$[][]. 
  []
 
-[55
+[56
 
-] [56]) 
+] [57]) 
 AED: lastpage setting LastPage
-[57]
+[58]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
  (/Users/helloncanella/Dropbox/monografia/latex/principal.aux (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/introducao.aux) (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/computadores-e-a-pratica-cientifica.aux) (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/pensamento-computacional.aux) (/Users/helloncanella/Dropbox/monografia/latex/elementos-textuais/implicacoes-educacionais.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
 Package rerunfilecheck Info: File `principal.brf' has not changed.
-(rerunfilecheck)             Checksum: A1FFAB5EB323547291A17C19325149B7;5921.
+(rerunfilecheck)             Checksum: 86BCBC887CE7899E99FF56511696475D;5972.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1227,18 +1227,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
  ) 
 Here is how much of TeX's memory you used:
- 18649 strings out of 492649
- 286878 string characters out of 6129623
- 573884 words of memory out of 5000000
+ 18650 strings out of 492649
+ 286885 string characters out of 6129623
+ 572884 words of memory out of 5000000
  21766 multiletter control sequences out of 15000+600000
  83948 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,20n,94p,1017b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /Users/helloncanella/Dropbox/monografia/latex/principal.pdf (58 pages, 5961256 bytes).
+Output written on /Users/helloncanella/Dropbox/monografia/latex/principal.pdf (59 pages, 5962188 bytes).
 PDF statistics:
- 1078 PDF objects out of 1200 (max. 8388607)
- 910 compressed objects within 10 object streams
- 217 named destinations out of 1000 (max. 500000)
+ 1085 PDF objects out of 1200 (max. 8388607)
+ 916 compressed objects within 10 object streams
+ 218 named destinations out of 1000 (max. 500000)
  24877 words of extra memory for PDF output out of 24883 (max. 10000000)
 
