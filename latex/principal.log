@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  12 FEB 2019 02:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  12 FEB 2019 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1065,12 +1065,12 @@ Package pdftex.def Info: imagens/babbage.jpg  used on input line 165.
 <imagens/modelo_matematico.png, id=279, 785.93625pt x 1035.87pt>
 File: imagens/modelo_matematico.png Graphic file (type png)
 <use imagens/modelo_matematico.png>
-Package pdftex.def Info: imagens/modelo_matematico.png  used on input line 198.
+Package pdftex.def Info: imagens/modelo_matematico.png  used on input line 216.
 (pdftex.def)             Requested size: 392.96716pt x 517.93373pt.
 <imagens/elos.png, id=281, 1631.09375pt x 1396.21625pt>
 File: imagens/elos.png Graphic file (type png)
 <use imagens/elos.png>
-Package pdftex.def Info: imagens/elos.png  used on input line 215.
+Package pdftex.def Info: imagens/elos.png  used on input line 233.
 (pdftex.def)             Requested size: 489.33191pt x 418.86812pt.
 ) [18] [19 </Users/helloncanella/Dropbox/monografia/latex/imagens/modelo_matematico.png>] [20 </Users/helloncanella/Dropbox/monografia/latex/imagens/elos.png>]
 \openout2 = `elementos-textuais/implicacoes-educacionais.aux'.
@@ -1229,13 +1229,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
 Here is how much of TeX's memory you used:
  18652 strings out of 492649
  286907 string characters out of 6129623
- 572890 words of memory out of 5000000
+ 573890 words of memory out of 5000000
  21767 multiletter control sequences out of 15000+600000
  83948 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,20n,94p,1017b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on /Users/helloncanella/Dropbox/monografia/latex/principal.pdf (59 pages, 5961792 bytes).
+Output written on /Users/helloncanella/Dropbox/monografia/latex/principal.pdf (59 pages, 5962146 bytes).
 PDF statistics:
  1089 PDF objects out of 1200 (max. 8388607)
  920 compressed objects within 10 object streams
