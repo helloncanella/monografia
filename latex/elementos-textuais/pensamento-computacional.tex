@@ -5,7 +5,9 @@ A noção de pensamento computacional tem ganhado força desde 2006, ano em que 
 
 A definição clássica que muitos autores dão para o conceito é extraído do próprio trabalho da autora que estabelece que pensamento computacional consiste ``numa abordagem para a solução de problemas, desenho de sistemas e entendimento do comportamento humano que se vale de conceitos fundamentais para ciência da computação'' \cite[Tradução nossa]{wing2006}, ou ainda, na capacidade de formular problemas e expressar suas soluções de forma suficientemente clara de tal modo que um computador possa executá-las.
 
-O desenvolvimento do tema requer algumas discussões preliminares. Comecemos com uma apresentação sobre o papel dos algoritmos.
+Para o desenvolvimento do tema, faremos a apresentação de três conceitos que consideramos básicos. São eles: os \textbf{algoritmos}, o \textbf{problema computacional} e a \textbf{abstração}. Ao final demonstraremos como esses elementos se articulam para compor o que se entende por pensamento computacional. 
+
+% O desenvolvimento do tema requer adiscussões preliminares. Comecemos com uma apresentação sobre o papel dos algoritmos.
 
 \section{Algoritmos}\label{sec:algoritmo}
 
@@ -34,11 +36,17 @@ Na figura \ref{fig:algoritmo} lê-se um conjunto de instruções para somar trê
 
 Perceba como essas instruções satisfazem as condições elencadas anteriormente: nela vemos um problema (cálculo da soma de três número inteiros) sendo resolvido de forma encadeada ao longo de um processo finito. Nota-se também que os passos acima facultariam a soma de quaisquer outros três números inteiros, atendendo a exigência de ``resolver qualquer instância do problema''. 
 
+
+\section{Problema Computacional}
+
 A tarefa de definir as instâncias de um problema equivale a determinar para quais perguntas um algoritmo deve oferecer respostas. Em problema de divisão, por exemplo, onde é preciso calcular a razão entre $a$ e $b$, o par $a=1.5$ e $b=9.365$ representa uma delas. Já $a=65.4$ e $b=77$ compõe outra. Numa única sentença podemos resumir que qualquer par de reais, onde $b\neq0$, representa uma instância válida. 
 
 A decisão de usar um computador para a resolução de qualquer problema exige que definamos tais instâncias. Sob o ponto de vista da ciência computação, ao procedermos dessa forma, distinguindo claramente os contornos do problema, definimos um ``problema computacional''.  
 
-A definição clara das instâncias do problema (criação de um problema computacional) e dos passos exatos para sua solução\footnote{Ao tratarmos computacionalmente um problema devemos ser capazes também de distinguir quando e porque, eventualmente, ele não tem solução.} (elaboração de um algoritmo) nos permitirá automatizar a sua execução. E é exatamente nessas duas habilidades que se apoiam o pensamento computacional.
+
+A definição clara das instâncias do problema (criação de um problema computacional) e dos passos exatos para sua solução\footnote{Ao tratarmos computacionalmente um problema devemos ser capazes também de distinguir quando e porque, eventualmente, ele não tem solução.} (elaboração de um algoritmo) nos permitirá automatizar a sua execução. 
+
+% E é exatamente nessas duas habilidades que se apoiam o pensamento computacional.
 
 \section{Abstração}
 
@@ -83,7 +91,7 @@ Na figura \ref{fig:cows} temos a ilustração dessa ideia: a mesma ``realidade''
 
 É interessante notar a proximidade do significado para abstração discutido até aqui com aquele proposto pelo filósofo John Locke, segundo o qual formação de uma abstração corresponde a uma transformação durante a qual ``ideias tomadas de seres particulares se tornam representantes gerais de todos do mesmo tipo'' \apud[p.~354. Tradução nossa]{Locke}{Sengupta2013}.
 
-\section{Modelos e módulos: duas possibilidade de abstração}
+\subsection{Modelos e módulos: duas possibilidade de abstração}
 
 \citeonline[]{Piwek2016} distingue dois tipos de abstrações: a ``abstração como modelo'', onde detalhes da realidade observada são desconsideradas em favor de outras -- o mesmo trabalhado até aqui -- e a ``abstração como encapsulamento'', processo no qual organizamos nosso modelo em módulos ou cápsulas que permitem a composição de sistemas mais complexos. 
 
@@ -172,13 +180,11 @@ Até agora apresentamos alguns conceitos sem relacioná-los apropriadamente. Alg
 	\item abstração como modelo e encapsulamento
 \end{itemize}
 	
-Afinal como esses elementos se articulam em torno do conceito de pensamento computacional, tema-central desse trabalho? Nessa seção, essa pergunta será o nosso fio-condutor.
+Afinal como esses elementos se articulam em torno do conceito de pensamento computacional, tema-central desse trabalho? Comecemos relacionando os conceitos de modelo matemático e problema computacional.
 
-Comecemos relacionando os conceitos de modelo matemático e problema computacional.
-
-O propósito da construção de modelos matemáticos se confunde com o da atividade científica: entender e descrever fenômenos e o comportamento de sistemas em função de condições pré-estabelecidas.
+O propósito da construção de modelos matemáticos se confunde a finalidade da atividade científica: o entendimento e a descrição fenômenos e comportamento de sistemas em função de condições pré-estabelecidas.
  
-Na construção de tais modelos, busca-se investigar as regras de interação entre os componentes internos ao sistema investigado e como o ambiente externo influencia essas relações. Fixados alguns parametros, tenta-se entender qual é o papel da variação de alguns outros. Em muitos casos, o objetivo principal desse empreendimento é a formalização dessa descrição em equações matemáticas. Em outros, a validação de descrições já propostas. 
+Na construção de tais modelos, busca-se investigar as regras de interação entre os componentes internos ao sistema investigado e como o ambiente externo influencia essas relações. Fixados alguns parametros, tenta-se entender qual é o papel da variação de alguns outros. Em muitos casos, o objetivo principal desse processo é a formalização dessa descrição em equações matemáticas. Em outros, a validação de descrições já propostas. 
 
 O surgimento do modelo matemático nasce portanto da consolidação das equações que regem o sistema.
 
