@@ -27,7 +27,7 @@ class App extends Component {
                 }}
               />
               <div class="wrap">
-                <div className="slide-bottom content-left">
+                <div className="content-left">
                   <h1>
                     O Pensamento Computacional como Recurso para Aprendizagem
                     Científica
