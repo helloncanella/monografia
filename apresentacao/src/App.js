@@ -19,6 +19,44 @@ class App extends Component {
           - Vertical sliding = <article id="webslides" className="vertical">
           - <div className="wrap"> = container 90% / <div className="wrap size-50"> = 45%;
         **/}
+            <section class="bg-primary aligncenter">
+              <span
+                class="background dark"
+                style={{
+                  backgroundImage: "url('images/skull.jpg')"
+                }}
+              />
+              <div class="wrap">
+                <div className="slide-bottom content-left">
+                  <h1>
+                    O Pensamento Computacional como Recurso para Aprendizagem
+                    Científica
+                  </h1>
+                  <br />
+                  <p className="" style={{ marginBottom: 0 }}>
+                    <strong>Autor:</strong> Hellon Canella Machado
+                  </p>
+                  <p className="">
+                    <strong>Orientador:</strong> Dr. Hélio Salim de Amorim
+                  </p>
+                  {/* <h1 class="text-landing">Landings</h1>
+
+                <p class="text-symbols">* * * </p> */}
+                  {/* <p>
+                    <a
+                      class="button ghost"
+                      href="https://github.com/webslides/webslides"
+                      title="Download WebSlides for free"
+                    >
+                      <svg class="fa-github">
+                        <use xlinkHref="#fa-github" />
+                      </svg>{" "}
+                      WebSlides
+                    </a>
+                  </p> */}
+                </div>
+              </div>
+            </section>
 
             <section>
               <span
