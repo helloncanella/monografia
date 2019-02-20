@@ -3,6 +3,7 @@ import "./App.css"
 import "webslides/static/js/webslides.js"
 import "webslides/static/js/svg-icons.js"
 import Slide from "./components/Slide"
+import AlgorithmExample from "./components/AlgorigthmExample"
 
 /* global WebSlides */
 class App extends Component {
@@ -123,7 +124,6 @@ class App extends Component {
                 </div>
               </div>
             </section>
-
             <Slide
               wrapClass="aligncenter fadeInUp"
               background={{ img: "images/korean-class.jpg" }}
@@ -133,7 +133,6 @@ class App extends Component {
                 <strong>Aprendizagem científica: Problemas comuns</strong>
               </h3>
             </Slide>
-
             <section>
               <div className="wrap aligncenter">
                 <p className="text-intro">
@@ -143,7 +142,6 @@ class App extends Component {
                 </p>
               </div>
             </section>
-
             <section>
               <div className="wrap aligncenter size-60">
                 <h2>
@@ -192,7 +190,6 @@ class App extends Component {
                 </div>
               </div>
             </section>
-
             <Slide wrapClass="alignleft">
               <div className="content-left">
                 <h3>
@@ -211,7 +208,6 @@ class App extends Component {
                 </p>
               </div>
             </Slide>
-
             <Slide>
               <div className="content-left">
                 <h3>
@@ -329,6 +325,36 @@ class App extends Component {
                 </p>
               </div>
             </Slide>
+            <Slide wrapClass="aligncenter">
+              <h2>
+                <strong>algoritmo</strong>
+              </h2>
+            </Slide>
+            <Slide>
+              <div className="content-left">
+                <h2>
+                  <strong>Algoritmo</strong>
+                </h2>
+
+                <p className="text-intro">
+                  Solução para um problema que satisfaz as seguintes condições
+                </p>
+
+                <ul className="flexblock steps">
+                  <li>
+                    <h2>01. ser uma sequencia de passos que leve à solução</h2>
+                  </li>
+                  <li>
+                    <h2>02. ser um processo finito</h2>
+                  </li>
+                  <li>
+                    <h2>03. resolver qualquer instância do problema</h2>
+                  </li>
+                </ul>
+              </div>
+            </Slide>
+            <AlgorithmExample />
+
             {/* <section>
               <span
                 className="background"
