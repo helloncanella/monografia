@@ -13,20 +13,20 @@ class App extends Component {
     return (
       <div className="App">
         <main role="main">
-          <article id="webslides" className="vertical">
+          <article id="webslides">
             {/** Quick Guide
           - Each parent <section> in the <article id="webslides"> element is an individual slide.
           - Vertical sliding = <article id="webslides" className="vertical">
           - <div className="wrap"> = container 90% / <div className="wrap size-50"> = 45%;
         **/}
-            <section class="bg-primary aligncenter">
+            <section className="bg-purple aligncenter" id="hello">
               <span
-                class="background dark"
+                className="background dark"
                 style={{
                   backgroundImage: "url('images/skull.jpg')"
                 }}
               />
-              <div class="wrap">
+              <div className="wrap">
                 <div className="content-left">
                   <h1>
                     O Pensamento Computacional como Recurso para Aprendizagem
@@ -39,30 +39,207 @@ class App extends Component {
                   <p className="">
                     <strong>Orientador:</strong> Dr. Hélio Salim de Amorim
                   </p>
-                  {/* <h1 class="text-landing">Landings</h1>
-
-                <p class="text-symbols">* * * </p> */}
-                  {/* <p>
-                    <a
-                      class="button ghost"
-                      href="https://github.com/webslides/webslides"
-                      title="Download WebSlides for free"
-                    >
-                      <svg class="fa-github">
-                        <use xlinkHref="#fa-github" />
-                      </svg>{" "}
-                      WebSlides
-                    </a>
-                  </p> */}
                 </div>
+              </div>
+            </section>
+            <section class="slide current" style={{ textAlign: "left" }}>
+              <div class="wrap size-30">
+                <h3>Sumário</h3>
+                <hr />
+                <div class="toc">
+                  <ol>
+                    <li>
+                      <a href="#" title="Go to Learning to see">
+                        <span class="chapter">
+                          Aprendizagem Científica: Problemas comuns
+                        </span>
+                        <span class="toc-page">01</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#slide=3" title="Go to What is Design?">
+                        <span class="chapter">What is Design?</span>
+                        <span class="toc-page">04</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" title="Go to What is Beauty?">
+                        <span class="chapter">What is Beauty?</span>
+                        <span class="toc-page">08</span>
+                      </a>
+                      <ol>
+                        <li>
+                          <a href="#" title="Go to Harmony">
+                            <span class="chapter">Harmony</span>
+                            <span class="toc-page">12</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Go to Simplicity vs. Clarity">
+                            <span class="chapter">Simplicity vs. Clarity</span>
+                            <span class="toc-page">14</span>
+                          </a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <a href="#" title="Go to Building a Culture">
+                        <span class="chapter">Building a Culture</span>
+                        <span class="toc-page">16</span>
+                      </a>
+                      <ol>
+                        <li>
+                          <span class="chapter">Purpose</span>
+                          <span class="toc-page">17</span>
+                          <ol>
+                            <li>
+                              <span class="chapter">Valuable</span>
+                              <span class="toc-page">18</span>
+                              <ol>
+                                <li>
+                                  <span class="chapter">Easy</span>
+                                  <span class="toc-page">20</span>
+                                </li>
+                                <li>
+                                  <span class="chapter">Elegant</span>
+                                  <span class="toc-page">21</span>
+                                </li>
+                              </ol>
+                            </li>
+                          </ol>
+                        </li>
+                        <li>
+                          <span class="chapter">Principles</span>
+                          <span class="toc-page">24</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <span class="chapter">Epilogue</span>
+                      <span class="toc-page">40</span>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </section>
+            <section className="bg-purple slide">
+              {/* <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light --> */}
+              <span
+                className="background dark"
+                style={{
+                  backgroundImage: "url('images/korean-class.jpg')"
+                }}
+              />
+              <div className="wrap aligncenter fadeInUp">
+                <h3>
+                  <strong>Aprendizagem científica: Problemas comuns</strong>
+                </h3>
+              </div>
+            </section>
+            <section>
+              <div className="wrap aligncenter">
+                <p className="text-intro">
+                  Segundo PISA 2015, apenas 30,6% dos alunos brasileiros
+                  alcançaram uma patamar de competência básico na área de
+                  ciências.
+                </p>
               </div>
             </section>
 
             <section>
+              <div className="wrap aligncenter size-60">
+                <h2>
+                  <strong>Problemas recorrentes</strong>
+                </h2>
+                <br />
+                <br />
+
+                <div className="bg-white shadow">
+                  <ul className="flexblock reasons">
+                    <li>
+                      <h2>
+                        Dificuldade para transpor a contextos novos conceitos e
+                        estratégias de resolução de problemas aprendidos.
+                      </h2>
+                      <p>
+                        Quando o formato do problema muda, os alunos apresentam
+                        dificuldades para aplicar à nova situação os conceitos e
+                        algoritmos adquiridos.
+                      </p>
+                    </li>
+                    <li>
+                      <h2>Escassez de significado dos resultados obtidos.</h2>
+                      <p>
+                        Aplicação, <strong>de modo acrítico</strong>, dos
+                        algoritmos de um modelo de problema, visando quase
+                        sempre uma resposta numérica, única e{" "}
+                        <strong>
+                          {" "}
+                          <q>"correta"</q>.
+                        </strong>
+                      </p>
+                    </li>
+                    <li>
+                      <h2 style={{ margin: 0 }}>
+                        Ausência de motivação para aprendizagem de temas
+                        científicos.
+                      </h2>
+                      <p>
+                        A percepção de insignificância dos temas tratados em
+                        sala de aula leva à desmotivação
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section className="slide">
+              <div className="wrap alignleft size">
+                {/* <p className="text-intro" /> */}
+                <div className="content-left">
+                  <h3>
+                    <strong>Essência dos problemas</strong>
+                  </h3>
+                  <p className="text-intro">
+                    Apesar de serem multifatoriais, os problemas apresentados se
+                    originam na forma como ciências é ensinada e a sua
+                    aprendizagem avaliada.
+                  </p>
+                  <p>
+                    O modelo avaliativo vigente, por exemplo, desestimula a
+                    aprendizagem significativa ao privilegiar a reprodução de
+                    "respostas corretas", induzindo o estudante a agir de forma
+                    autômata.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section className="slide">
+              <div className="wrap">
+                <div className="content-left">
+                  <h3>
+                    <strong>Problema de física comum</strong>
+                  </h3>
+                  <pre style={{ marginTop: 15 }}>
+                    Qual é velocidade após 32s de um objeto lançado para alto
+                    com uma velocidade de 20m/s?
+                  </pre>
+                  <p>
+                    A recorrência desse modelo de problema ilustra a preocupação
+                    reprodutiva do atual modelo de ensino, que colabora para a
+                    transmissão de uma imagem irrealista da atividade
+                    científica.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section>
               <span
                 className="background"
                 style={{
-                  "background-image":
+                  backgroundImage:
                     "url('https://webslides.tv/static/images/nature.jpg')"
                 }}
               />
@@ -176,7 +353,7 @@ class App extends Component {
                       <span className="code-comment">
                         &lt;!-- Slide 2 --&gt;
                       </span>
-                      &lt;section className="bg-primary"&gt; &lt;div
+                      &lt;section className="bg-purple"&gt; &lt;div
                       className="wrap"&gt; &lt;h2&gt;.wrap = container (width:
                       90%)&lt;/h2&gt; &lt;/div&gt; &lt;/section&gt;
                       &lt;/article&gt;
