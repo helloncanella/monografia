@@ -19,7 +19,7 @@ class App extends Component {
           - Vertical sliding = <article id="webslides" className="vertical">
           - <div className="wrap"> = container 90% / <div className="wrap size-50"> = 45%;
         **/}
-            <section className="bg-purple aligncenter" id="hello">
+            <section className="bg-gradient-v aligncenter " id="hello">
               <span
                 className="background dark"
                 style={{
@@ -42,7 +42,7 @@ class App extends Component {
                 </div>
               </div>
             </section>
-            <section class="slide current" style={{ textAlign: "left" }}>
+            <section class="slide " style={{ textAlign: "left" }}>
               <div class="wrap size-30">
                 <h3>Sumário</h3>
                 <hr />
@@ -122,7 +122,7 @@ class App extends Component {
                 </div>
               </div>
             </section>
-            <section className="bg-purple slide">
+            <section className="bg-gradient-v slide">
               {/* <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light --> */}
               <span
                 className="background dark"
@@ -151,8 +151,9 @@ class App extends Component {
                 <h2>
                   <strong>Problemas recorrentes</strong>
                 </h2>
-                <br />
-                <br />
+                <p className="text-intro">
+                  Perceptíveis para professores veteranos
+                </p>
 
                 <div className="bg-white shadow">
                   <ul className="flexblock reasons">
@@ -203,8 +204,8 @@ class App extends Component {
                   </h3>
                   <p className="text-intro">
                     Apesar de serem multifatoriais, os problemas apresentados se
-                    originam na forma como ciências é ensinada e a sua
-                    aprendizagem avaliada.
+                    originam na forma como disciplinas científicas são
+                    ensinadas, e a aprendizagem delas avaliada.
                   </p>
                   <p>
                     O modelo avaliativo vigente, por exemplo, desestimula a
@@ -220,7 +221,7 @@ class App extends Component {
               <div className="wrap">
                 <div className="content-left">
                   <h3>
-                    <strong>Problema de física comum</strong>
+                    <strong>Exemplo: um problema de física</strong>
                   </h3>
                   <pre style={{ marginTop: 15 }}>
                     Qual é velocidade após 32s de um objeto lançado para alto
@@ -233,6 +234,32 @@ class App extends Component {
                     científica.
                   </p>
                 </div>
+              </div>
+            </section>
+
+            <section class="bg-purple">
+              <div class="wrap size-60">
+                <p class="text-context" style={{ fontWeight: 600 }}>
+                  OBJETIVO GERAL
+                </p>
+                <h2>
+                  Propor uma <strong>abordagem</strong> que enderece os
+                  problemas apresentados.
+                </h2>
+              </div>
+            </section>
+            <section className="bg-gradient-v slide">
+              {/* <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light --> */}
+              <span
+                className="background dark"
+                style={{
+                  backgroundImage: "url('images/robot.jpg')"
+                }}
+              />
+              <div className="wrap aligncenter fadeInUp">
+                <h3>
+                  <strong>Pensamento Computacional</strong>
+                </h3>
               </div>
             </section>
             <section>
@@ -353,7 +380,7 @@ class App extends Component {
                       <span className="code-comment">
                         &lt;!-- Slide 2 --&gt;
                       </span>
-                      &lt;section className="bg-purple"&gt; &lt;div
+                      &lt;section className="bg-gradient-v"&gt; &lt;div
                       className="wrap"&gt; &lt;h2&gt;.wrap = container (width:
                       90%)&lt;/h2&gt; &lt;/div&gt; &lt;/section&gt;
                       &lt;/article&gt;
