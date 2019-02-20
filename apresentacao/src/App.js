@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import "./App.css"
 import "webslides/static/js/webslides.js"
 import "webslides/static/js/svg-icons.js"
+import Slide from "./components/Slide"
 
 /* global WebSlides */
 class App extends Component {
@@ -122,20 +123,17 @@ class App extends Component {
                 </div>
               </div>
             </section>
-            <section className="bg-gradient-v slide">
-              {/* <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light --> */}
-              <span
-                className="background dark"
-                style={{
-                  backgroundImage: "url('images/korean-class.jpg')"
-                }}
-              />
-              <div className="wrap aligncenter fadeInUp">
-                <h3>
-                  <strong>Aprendizagem científica: Problemas comuns</strong>
-                </h3>
-              </div>
-            </section>
+
+            <Slide
+              wrapClass="aligncenter fadeInUp"
+              background={{ img: "images/korean-class.jpg" }}
+              slideClass="bg-gradient-v"
+            >
+              <h3>
+                <strong>Aprendizagem científica: Problemas comuns</strong>
+              </h3>
+            </Slide>
+
             <section>
               <div className="wrap aligncenter">
                 <p className="text-intro">
@@ -195,49 +193,42 @@ class App extends Component {
               </div>
             </section>
 
-            <section className="slide">
-              <div className="wrap alignleft size">
-                {/* <p className="text-intro" /> */}
-                <div className="content-left">
-                  <h3>
-                    <strong>Essência dos problemas</strong>
-                  </h3>
-                  <p className="text-intro">
-                    Apesar de serem multifatoriais, os problemas apresentados se
-                    originam na forma como disciplinas científicas são
-                    ensinadas, e a aprendizagem delas avaliada.
-                  </p>
-                  <p>
-                    O modelo avaliativo vigente, por exemplo, desestimula a
-                    aprendizagem significativa ao privilegiar a reprodução de
-                    "respostas corretas", induzindo o estudante a agir de forma
-                    autômata.
-                  </p>
-                </div>
+            <Slide wrapClass="alignleft">
+              <div className="content-left">
+                <h3>
+                  <strong>Essência dos problemas</strong>
+                </h3>
+                <p className="text-intro">
+                  Apesar de serem multifatoriais, os problemas apresentados se
+                  originam na forma como disciplinas científicas são ensinadas,
+                  e a aprendizagem delas avaliada.
+                </p>
+                <p>
+                  O modelo avaliativo vigente, por exemplo, desestimula a
+                  aprendizagem significativa ao privilegiar a reprodução de
+                  "respostas corretas", induzindo o estudante a agir de forma
+                  autômata.
+                </p>
               </div>
-            </section>
+            </Slide>
 
-            <section className="slide">
-              <div className="wrap">
-                <div className="content-left">
-                  <h3>
-                    <strong>Exemplo: um problema de física</strong>
-                  </h3>
-                  <pre style={{ marginTop: 15 }}>
-                    Qual é velocidade após 32s de um objeto lançado para alto
-                    com uma velocidade de 20m/s?
-                  </pre>
-                  <p>
-                    A recorrência desse modelo de problema ilustra a preocupação
-                    reprodutiva do atual modelo de ensino, que colabora para a
-                    transmissão de uma imagem irrealista da atividade
-                    científica.
-                  </p>
-                </div>
+            <Slide>
+              <div className="content-left">
+                <h3>
+                  <strong>Exemplo: um problema de física</strong>
+                </h3>
+                <pre style={{ marginTop: 15 }}>
+                  Qual é velocidade após 32s de um objeto lançado para alto com
+                  uma velocidade de 20m/s?
+                </pre>
+                <p>
+                  A recorrência desse modelo de problema ilustra a preocupação
+                  reprodutiva do atual modelo de ensino, que colabora para a
+                  transmissão de uma imagem irrealista da atividade científica.
+                </p>
               </div>
-            </section>
-
-            <section class="bg-purple">
+            </Slide>
+            {/* <section class="bg-purple">
               <div class="wrap size-60">
                 <p class="text-context" style={{ fontWeight: 600 }}>
                   OBJETIVO GERAL
@@ -247,21 +238,21 @@ class App extends Component {
                   problemas apresentados.
                 </h2>
               </div>
-            </section>
-            <section className="bg-gradient-v slide">
-              {/* <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light --> */}
-              <span
-                className="background dark"
-                style={{
-                  backgroundImage: "url('images/robot.jpg')"
-                }}
-              />
-              <div className="wrap aligncenter fadeInUp">
-                <h3>
-                  <strong>Pensamento Computacional</strong>
-                </h3>
-              </div>
-            </section>
+            </section> */}
+            <Slide
+              slideClass="bg-gradient-v"
+              background={{ img: "images/robot.jpg" }}
+              wrapClass="aligncenter fadeInUp"
+            >
+              <h3>
+                <strong>Pensamento Computacional</strong>
+              </h3>
+            </Slide>
+            <Slide>
+              <h3>
+                <strong>Exemplo</strong>
+              </h3>
+            </Slide>
             <section>
               <span
                 className="background"
