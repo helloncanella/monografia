@@ -248,12 +248,88 @@ class App extends Component {
                 <strong>Pensamento Computacional</strong>
               </h3>
             </Slide>
-            <Slide>
-              <h3>
+            <Slide fullscreen>
+              <div className="card-50">
+                <figure>
+                  <img src="images/wing-2006.png" alt="" />
+                </figure>
+                <div className="flex-content">
+                  <h2>
+                    <strong>Pensamento Computacional</strong>
+                  </h2>
+                  <p className="text-intro">
+                    Expressão presente na literatura desde da década de 80, mas
+                    que ganha popularidade com uma{" "}
+                    <a href="http://www.cs.cmu.edu/~./15110-s13/Wing06-ct.pdf">
+                      publicação
+                    </a>
+                    , no ano de 2006, pela Professora Jeannette Wing, então
+                    professora da Universidade Carnegie Mellon.
+                  </p>
+                </div>
+              </div>
+            </Slide>
+            <Slide slideClass="bg-white" fullscreen>
+              <div className="card-50">
+                <div className="flex-content">
+                  <blockquote style={{ width: "100%" }}>
+                    <p className="text-serif" style={{ textAlign: "center" }}>
+                      "O pensamento computacional envolve{" "}
+                      <strong>resolver problemas</strong>,
+                      <strong> projetar sistemas</strong> e compreender
+                      comportamento, baseando-se em{" "}
+                      <strong>conceitos fundamentais</strong> à ciência da
+                      computação ."
+                    </p>
+                    <p>
+                      <cite style={{ textAlign: "center" }}>
+                        Jeannette Wing
+                        {/* <strong>Jeannette Wing</strong> */}
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+                {/* <p className="">
+
+                    Expressão que 
+                  </p>
+                </div> */}
+
+                <figure>
+                  <img src="images/wing.jpg" alt="" />
+                </figure>
+              </div>
+              {/* <h3>
                 <strong>Exemplo</strong>
               </h3>
+              <p className="text-intro">Hello, its me</p> */}
             </Slide>
-            <section>
+            <Slide wrapClass="aligncenter">
+              <h2>
+                <strong>mas quais conceitos?</strong>
+              </h2>
+            </Slide>
+            <Slide>
+              <div className="content-left">
+                <h2>
+                  <strong>Conceitos fundamentais</strong>
+                </h2>
+                <p className="text-intro">
+                  Dos conceitos fundamentais à ciência da computação, três
+                  necessitam ser compreendidos para o entendimento do pensamento
+                  computacional.
+                  <br />
+                  {/* </p>
+                <p className="text-intro"> */}{" "}
+                </p>
+                <p>
+                  São eles o <strong>algoritmo</strong>, o{" "}
+                  <strong>problema computacional</strong> e a{" "}
+                  <strong>abstração</strong>
+                </p>
+              </div>
+            </Slide>
+            {/* <section>
               <span
                 className="background"
                 style={{
@@ -675,7 +751,7 @@ class App extends Component {
                   </p>
                 </div>
               </div>
-            </section>
+            </section> */}
           </article>
         </main>
       </div>

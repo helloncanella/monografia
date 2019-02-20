@@ -2,7 +2,12 @@ import React from "react"
 
 export default function Slide(props) {
   const wrapClass = `wrap ${props.wrapClass || ""}`
-  const slideClass = props.slideClass || ""
+
+  const slideClass = `${props.slideClass || ""} ${
+    props.fullscreen ? "fullscreen" : ""
+  }`
+
+  const content = props.children || null
 
   return (
     <section className={slideClass}>
@@ -18,7 +23,7 @@ export default function Slide(props) {
           }
         />
       )}
-      <div className={wrapClass}>{props.children || null}</div>
+      {props.fullscreen ? content : <div className={wrapClass}>{content}</div>}
     </section>
   )
 }
