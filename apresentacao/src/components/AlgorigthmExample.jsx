@@ -23,9 +23,9 @@ export default function AlgorithmExample() {
         <div className="card-50">
           <div className="flex-content">
             {first(i) && (
-              <h3>
+              <h4>
                 <strong>Exemplo do sec. XVIII</strong>
-              </h3>
+              </h4>
             )}
             <blockquote style={{ width: "100%" }}>
               <p className="text-serif" style={{ textAlign: "left" }}>

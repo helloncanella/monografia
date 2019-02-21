@@ -201,9 +201,9 @@ class App extends Component {
             </Slide>
             <Slide>
               <div className="content-left">
-                <h3>
+                <h4>
                   <strong>Exemplo: um problema de física</strong>
-                </h3>
+                </h4>
                 <pre style={{ marginTop: 15 }}>
                   Qual é velocidade após 32s de um objeto lançado para alto com
                   uma velocidade de 20m/s?
@@ -304,7 +304,7 @@ class App extends Component {
                 </h2>
 
                 <p className="text-intro">
-                  Solução para um problema que satisfaz as seguintes condições
+                  Solução para um problema que satisfaz as seguintes condições:
                 </p>
 
                 <ul className="flexblock steps">
@@ -321,7 +321,6 @@ class App extends Component {
               </div>
             </Slide>
             <AlgorithmExample />
-
             <Slide wrapClass="aligncenter">
               <h2>
                 <strong>problema computacional</strong>
@@ -373,7 +372,6 @@ class App extends Component {
                 </p>
               </div>
             </Slide>
-
             <Slide wrapClass="aligncenter">
               <h2>
                 <strong>abstração</strong>
@@ -420,6 +418,71 @@ class App extends Component {
                 </li>
               </ul>
               >
+            </Slide>
+            <Slide>
+              <div className="content-left">
+                <p>
+                  O grau de detalhamento de um modelo dependerá sempre das
+                  circunstâncias do problema.
+                </p>
+                <p>
+                  Desprezar os efeitos do atrito na trajetória de um foguete é
+                  conveniente se estamos ensinando física básica, mas impróprio
+                  no contexto de um programa aerospacial.
+                </p>
+              </div>
+            </Slide>
+            <Slide wrapClass="aligncenter">
+              <h2>
+                <strong>abstração como cápsula</strong>
+              </h2>
+            </Slide>
+
+            <Slide wrapClass="aligncenter">
+              <div className="content-left">
+                <h2>
+                  <strong>Abstração como cápsula</strong>
+                </h2>
+                <p>
+                  Em computação e engenharia, a construção de sistemas depende
+                  da criação módulos.
+                </p>
+                <p>
+                  Nestes casos, o processo de abstração se caracteriza pelo{" "}
+                  <strong>encapsulamento</strong> de componentes responsáveis
+                  por funcionalidades.
+                </p>
+                <p>
+                  Busca-se deixar visível apenas a <strong>interface</strong>,
+                  os componentes que permitem a manipulação externa do sistema
+                </p>
+              </div>
+            </Slide>
+            <Slide wrapClass="aligncenter">
+              <div className="content-left">
+                <h4>
+                  <strong>Exemplo</strong>
+                </h4>
+                <p>
+                  No modelo mecânico do sistema solar exibido ao lado,
+                  distinguimos os dois desse tipo de abstração.
+                </p>
+                <p />
+              </div>
+              <div className="content-right">
+                <ul className="flexblock gallery">
+                  <li>
+                    <figure>
+                      <img src="images/code.jpg" alt="" />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img src="images/code.jpg" alt="" />
+                    </figure>
+                  </li>
+                </ul>
+              </div>
             </Slide>
           </article>
         </main>
