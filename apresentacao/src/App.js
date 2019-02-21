@@ -21,29 +21,24 @@ class App extends Component {
           - Vertical sliding = <article id="webslides" className="vertical">
           - <div className="wrap"> = container 90% / <div className="wrap size-50"> = 45%;
         **/}
-            <section className="bg-gradient-v aligncenter " id="hello">
-              <span
-                className="background dark"
-                style={{
-                  backgroundImage: "url('images/skull.jpg')"
-                }}
-              />
-              <div className="wrap">
-                <div className="content-left">
-                  <h1>
-                    O Pensamento Computacional como Recurso para Aprendizagem
-                    Científica
-                  </h1>
-                  <br />
-                  <p className="" style={{ marginBottom: 0 }}>
-                    <strong>Autor:</strong> Hellon Canella Machado
-                  </p>
-                  <p className="">
-                    <strong>Orientador:</strong> Dr. Hélio Salim de Amorim
-                  </p>
-                </div>
+            <Slide
+              slideClass="bg-gradient-v aligncenter "
+              background={{ img: "images/skull.jpg" }}
+            >
+              <div className="content-left">
+                <h1>
+                  O Pensamento Computacional como Recurso para Aprendizagem
+                  Científica
+                </h1>
+                <br />
+                <p className="" style={{ marginBottom: 0 }}>
+                  <strong>Autor:</strong> Hellon Canella Machado
+                </p>
+                <p className="">
+                  <strong>Orientador:</strong> Dr. Hélio Salim de Amorim
+                </p>
               </div>
-            </section>
+            </Slide>
             <section class="slide " style={{ textAlign: "left" }}>
               <div class="wrap size-30">
                 <h3>Sumário</h3>
@@ -133,63 +128,59 @@ class App extends Component {
                 <strong>Aprendizagem científica: Problemas comuns</strong>
               </h3>
             </Slide>
-            <section>
-              <div className="wrap aligncenter">
-                <p className="text-intro">
-                  Segundo PISA 2015, apenas 30,6% dos alunos brasileiros
-                  alcançaram uma patamar de competência básico na área de
-                  ciências.
-                </p>
-              </div>
-            </section>
-            <section>
-              <div className="wrap aligncenter size-60">
-                <h2>
-                  <strong>Problemas recorrentes</strong>
-                </h2>
-                <p className="text-intro">
-                  Perceptíveis para professores veteranos
-                </p>
+            <Slide wrapClass="aligncenter">
+              <p className="text-intro">
+                Segundo PISA 2015, apenas 30,6% dos alunos brasileiros
+                alcançaram uma patamar de competência básico na área de
+                ciências.
+              </p>
+            </Slide>
+            <Slide wrapClass="aligncenter size-60">
+              <h2>
+                <strong>Problemas recorrentes</strong>
+              </h2>
+              <p className="text-intro">
+                Perceptíveis para professores veteranos
+              </p>
 
-                <div className="bg-white shadow">
-                  <ul className="flexblock reasons">
-                    <li>
-                      <h2>
-                        Dificuldade para transpor a contextos novos conceitos e
-                        estratégias de resolução de problemas aprendidos.
-                      </h2>
-                      <p>
-                        Quando o formato do problema muda, os alunos apresentam
-                        dificuldades para aplicar à nova situação os conceitos e
-                        algoritmos adquiridos.
-                      </p>
-                    </li>
-                    <li>
-                      <h2>Escassez de significado dos resultados obtidos.</h2>
-                      <p>
-                        Aplicação, <strong>de modo acrítico</strong>, dos
-                        algoritmos de um modelo de problema, visando quase
-                        sempre uma resposta numérica, única e{" "}
-                        <strong>
-                          {" "}
-                          <q>"correta"</q>.
-                        </strong>
-                      </p>
-                    </li>
-                    <li>
-                      <h2 style={{ margin: 0 }}>
-                        Ausência de motivação para aprendizagem de temas
-                        científicos.
-                      </h2>
-                      <p>
-                        A percepção de insignificância dos temas tratados em
-                        sala de aula leva à desmotivação
-                      </p>
-                    </li>
-                  </ul>
-                </div>
+              <div className="bg-white shadow">
+                <ul className="flexblock reasons">
+                  <li>
+                    <h2>
+                      Dificuldade para transpor a contextos novos conceitos e
+                      estratégias de resolução de problemas aprendidos.
+                    </h2>
+                    <p>
+                      Quando o formato do problema muda, os alunos apresentam
+                      dificuldades para aplicar à nova situação os conceitos e
+                      algoritmos adquiridos.
+                    </p>
+                  </li>
+                  <li>
+                    <h2>Escassez de significado dos resultados obtidos.</h2>
+                    <p>
+                      Aplicação, <strong>de modo acrítico</strong>, dos
+                      algoritmos de um modelo de problema, visando quase sempre
+                      uma resposta numérica, única e{" "}
+                      <strong>
+                        {" "}
+                        <q>"correta"</q>.
+                      </strong>
+                    </p>
+                  </li>
+                  <li>
+                    <h2 style={{ margin: 0 }}>
+                      Ausência de motivação para aprendizagem de temas
+                      científicos.
+                    </h2>
+                    <p>
+                      A percepção de insignificância dos temas tratados em sala
+                      de aula leva à desmotivação
+                    </p>
+                  </li>
+                </ul>
               </div>
-            </section>
+            </Slide>
             <Slide wrapClass="alignleft">
               <div className="content-left">
                 <h3>
@@ -224,17 +215,6 @@ class App extends Component {
                 </p>
               </div>
             </Slide>
-            {/* <section class="bg-purple">
-              <div class="wrap size-60">
-                <p class="text-context" style={{ fontWeight: 600 }}>
-                  OBJETIVO GERAL
-                </p>
-                <h2>
-                  Propor uma <strong>abordagem</strong> que enderece os
-                  problemas apresentados.
-                </h2>
-              </div>
-            </section> */}
             <Slide
               slideClass="bg-gradient-v"
               background={{ img: "images/robot.jpg" }}
@@ -304,8 +284,6 @@ class App extends Component {
                   necessitam ser compreendidos para o entendimento do pensamento
                   computacional.
                   <br />
-                  {/* </p>
-                <p className="text-intro"> */}{" "}
                 </p>
                 <p>
                   São eles o <strong>algoritmo</strong>, o{" "}
