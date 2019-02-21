@@ -312,9 +312,11 @@ class App extends Component {
                     <h2>01. ser uma sequencia de passos que leve à solução</h2>
                   </li>
                   <li>
+                    <div class="process step-2" style={{ top: 24 }} />
                     <h2>02. ser um processo finito</h2>
                   </li>
                   <li>
+                    <div class="process step-3" style={{ top: 24 }} />
                     <h2>03. resolver qualquer instância do problema</h2>
                   </li>
                 </ul>
@@ -504,11 +506,18 @@ class App extends Component {
 
             <Slide
               background={{ class: "dark" }}
-              slideClass="bg-grandient-v"
-              wrapClass="aligncenter"
+              slideClass="bg-purple"
+              wrapClass="size-60"
             >
-              <p className="text-context">hello</p>
-              <h3>Hello</h3>
+              <p class="text-context">
+                <strong>OBJETIVO</strong>
+              </p>
+              <h3>
+                Demonstrar como o uso do pensamento computacional em{" "}
+                <strong>sala de aula</strong> tem criado um{" "}
+                <strong>ambiente favorável</strong> para a aprendizagem
+                científica.
+              </h3>
             </Slide>
             <Slide
               slideClass="bg-gradient-v"
@@ -518,6 +527,50 @@ class App extends Component {
               <h3>
                 <strong>Implicações Educacionais</strong>
               </h3>
+            </Slide>
+            <Slide>
+              <h3>Pensamento computacional na sala de aula</h3>
+              <ul class="flexblock gallery">
+                {[
+                  {
+                    name: "Ensino de programação",
+                    img: "images/programming.jpg"
+                  },
+
+                  {
+                    name: "Robótica",
+                    img: "images/robotica.jpg"
+                  },
+
+                  {
+                    name: "Modelagem e simulação",
+                    img: "images/simulation.png"
+                  },
+
+                  {
+                    name: "Criação de jogos",
+                    img: "images/gaming.jpg"
+                  }
+                ].map(({ name, img }, i) => (
+                  <li key={`a-${i}`}>
+                    <figure>
+                      <img
+                        src={img}
+                        alt=""
+                        style={{ height: 222.287, margin: 0, width: "100%" }}
+                      />
+                      <figcaption>
+                        <h2>{name}</h2>
+                      </figcaption>
+                    </figure>
+                  </li>
+                ))}
+              </ul>
+            </Slide>
+            <Slide slideClass="aligncenter">
+              <h2>
+                <strong>benefícios</strong>
+              </h2>
             </Slide>
           </article>
         </main>
