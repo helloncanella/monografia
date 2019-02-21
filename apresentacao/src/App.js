@@ -567,6 +567,41 @@ class App extends Component {
                 <strong>benefícios</strong>
               </h2>
             </Slide>
+            <Slide>
+              <h2>
+                <strong>Benefícios, segundo a literatura</strong>
+              </h2>
+              <ul className="flexblock steps">
+                {[
+                  `
+                    01. Alto índice de engajamento decorrente do caráter "mão na
+                    massa" das atividades.
+                  `,
+                  `
+                    02. Aumento do interesse para resolução de problemas
+                    abertos, e da percepção de que um problema pode ser resolvido de várias formas.
+                  `,
+                  `
+                    03. Aumento da persistência para a resolução de problemas difíceis. 
+                  `,
+                  `
+                    04. Desenvolvimento de habilidades necessárias para o trabalho em grupo. 
+                  `
+                ].map((text, i) => {
+                  return (
+                    <li key={"razao-" + i}>
+                      <h2>{text}</h2>
+                    </li>
+                  )
+                })}
+              </ul>
+            </Slide>
+
+            <Slide slideClass="aligncenter">
+              <h2>
+                <strong>motivações adicionais</strong>
+              </h2>
+            </Slide>
           </article>
         </main>
       </div>
