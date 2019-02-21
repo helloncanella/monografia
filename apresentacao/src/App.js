@@ -450,35 +450,38 @@ class App extends Component {
                 <p>
                   Nestes casos, o processo de abstração se caracteriza pelo{" "}
                   <strong>encapsulamento</strong> de componentes responsáveis
-                  por funcionalidades.
+                  pela <strong>implementação</strong> das funcionalidades.
                 </p>
                 <p>
                   Busca-se deixar visível apenas a <strong>interface</strong>,
-                  os componentes que permitem a manipulação externa do sistema
+                  os componentes que caracterizam o modelo e permitem a sua
+                  manipulação externa.
                 </p>
               </div>
             </Slide>
             <Slide wrapClass="aligncenter">
               <div className="content-left">
                 <h4>
-                  <strong>Exemplo</strong>
+                  <strong>Exemplo: planetário mecânico</strong>
                 </h4>
                 <p>
-                  No modelo mecânico do sistema solar exibido ao lado,
-                  distinguimos os dois desse tipo de abstração.
+                  À esquerda temos sua <strong>interface</strong>, superfície
+                  metálica responsável por externalizar os elementos que
+                  caracterizam o modelo, e esconder os detalhes da{" "}
+                  <strong>implementação</strong> - sistema de rodas dentadas, à
+                  direita.
                 </p>
-                <p />
               </div>
               <div className="content-right">
                 <ul className="flexblock gallery">
                   <li>
                     <figure>
-                      <img src="images/code.jpg" alt="" />
+                      <img src="images/orrery.png" alt="" />
                     </figure>
                   </li>
                   <li>
                     <figure>
-                      <img src="images/code.jpg" alt="" />
+                      <img src="images/orrery-engine.png" alt="" />
                     </figure>
                   </li>
                 </ul>
