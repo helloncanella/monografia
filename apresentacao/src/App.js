@@ -379,6 +379,48 @@ class App extends Component {
                 <strong>abstração</strong>
               </h2>
             </Slide>
+            <Slide>
+              <div className="content-left">
+                <h2>
+                  <strong>Abstração</strong>
+                </h2>
+                <p className="">
+                  A abstração é, em essência, uma <strong>redução</strong> da
+                  realidade. Uma <strong>representação</strong>.
+                </p>
+                <p>
+                  Abstrair, nesse sentido, equivale à incorporar parte da
+                  realidade em um <strong>modelo</strong>, em desfavor de
+                  detalhes julgados como menos importantes.
+                </p>
+              </div>
+            </Slide>
+            <Slide>
+              <h2>Um animal. Quatro modelos. </h2>
+              <ul className="flexblock gallery">
+                <li>
+                  <figure>
+                    <img src="images/cow-1.jpg" alt="" />
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img src="images/cow-2.jpg" alt="" />
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img src="images/cow-3.jpg" alt="" />
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img src="images/cow-4.jpg" alt="" />
+                  </figure>
+                </li>
+              </ul>
+              >
+            </Slide>
           </article>
         </main>
       </div>
