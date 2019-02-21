@@ -487,6 +487,38 @@ class App extends Component {
                 </ul>
               </div>
             </Slide>
+            <Slide slideClass="aligncenter">
+              <h2>
+                <strong>pensamento computacional: a formação</strong>
+              </h2>
+            </Slide>
+            <Slide>
+              <div className="content-left">
+                <h2>TODO: </h2>
+                <h3>explicar como se forma</h3>
+              </div>
+              <div className="content-right">
+                <p>Espaço para imagem</p>
+              </div>
+            </Slide>
+
+            <Slide
+              background={{ class: "dark" }}
+              slideClass="bg-grandient-v"
+              wrapClass="aligncenter"
+            >
+              <p className="text-context">hello</p>
+              <h3>Hello</h3>
+            </Slide>
+            <Slide
+              slideClass="bg-gradient-v"
+              background={{ img: "images/girl.jpeg" }}
+              wrapClass="aligncenter fadeInUp"
+            >
+              <h3>
+                <strong>Implicações Educacionais</strong>
+              </h3>
+            </Slide>
           </article>
         </main>
       </div>
