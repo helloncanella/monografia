@@ -470,16 +470,17 @@ class App extends Component {
               </div>
               <div className="content-right">
                 <ul className="flexblock gallery">
-                  <li>
-                    <figure>
-                      <img src="images/orrery.png" alt="" />
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="images/orrery-engine.png" alt="" />
-                    </figure>
-                  </li>
+                  {["images/orrery.png", "images/orrery-engine.png"].map(
+                    (img, i) => {
+                      return (
+                        <li key={`i-${i}`}>
+                          <figure>
+                            <img src={img} alt="" style={{ height: 261.25 }} />
+                          </figure>
+                        </li>
+                      )
+                    }
+                  )}
                 </ul>
               </div>
             </Slide>
