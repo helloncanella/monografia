@@ -398,26 +398,20 @@ class App extends Component {
             <Slide>
               <h2>Um animal. Quatro modelos. </h2>
               <ul className="flexblock gallery">
-                <li>
-                  <figure>
-                    <img src="images/cow-1.jpg" alt="" />
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img src="images/cow-2.jpg" alt="" />
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img src="images/cow-3.jpg" alt="" />
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img src="images/cow-4.jpg" alt="" />
-                  </figure>
-                </li>
+                {[
+                  "images/cow-1.jpg",
+                  "images/cow-2.jpg",
+                  "images/cow-3.jpg",
+                  "images/cow-4.jpg"
+                ].map((img, i) => {
+                  return (
+                    <li key={`cow-${i}`}>
+                      <figure style={{ height: 245.9 }}>
+                        <img src={img} style={{ height: "100%" }} alt="" />
+                      </figure>
+                    </li>
+                  )
+                })}
               </ul>
               >
             </Slide>
