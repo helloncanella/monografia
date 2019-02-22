@@ -4,6 +4,7 @@ import "webslides/static/js/webslides.js"
 import "webslides/static/js/svg-icons.js"
 import Slide from "./components/Slide"
 import AlgorithmExample from "./components/AlgorigthmExample"
+import Motivation from "./components/Motivation"
 
 /* global WebSlides */
 class App extends Component {
@@ -602,6 +603,123 @@ class App extends Component {
                 <strong>motivações adicionais</strong>
               </h2>
             </Slide>
+            <Motivation img="images/waymo.jpg" title="Ubiquidade da computação">
+              <p>
+                Florence, Italy &mdash; <strong>.card-50</strong>
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+            </Motivation>
+            <Motivation
+              img="images/waymo.jpg"
+              title="Relevância para a prática científica"
+            >
+              <p>
+                Florence, Italy &mdash; <strong>.card-50</strong>
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+            </Motivation>
+
+            <Motivation
+              img="images/waymo.jpg"
+              title=" Diálogo com centros de interesse"
+            >
+              <p>
+                Florence, Italy &mdash; <strong>.card-50</strong>
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+            </Motivation>
+            <Motivation
+              img="images/waymo.jpg"
+              title="Inversão da relação com a tecnologia"
+            >
+              <p>
+                Florence, Italy &mdash; <strong>.card-50</strong>
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+            </Motivation>
+            <Motivation img="images/waymo.jpg" title="Contexto excelente">
+              {/* TODO: FALAR DE PROBLEMAS ABERTOS */}
+              <p>
+                Florence, Italy &mdash; <strong>.card-50</strong>
+              </p>
+
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+            </Motivation>
+            <Motivation
+              img="images/waymo.jpg"
+              title="Coerência com a prática científica"
+            >
+              <p>
+                Florence, Italy &mdash; <strong>.card-50</strong>
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+              <p>
+                Florence was a centre of medieval European trade and finance and
+                one of the wealthiest cities of the time. It is considered the
+                birthplace of the Renaissance, and has been called "the Athens
+                of the Middle Ages".
+              </p>
+            </Motivation>
           </article>
         </main>
       </div>
