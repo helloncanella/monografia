@@ -10,6 +10,7 @@ import Motivation from "./components/Motivation"
 class App extends Component {
   componentDidMount() {
     window.ws = new WebSlides()
+    console.log(window.ws.plugins)
   }
 
   render() {
@@ -120,6 +121,7 @@ class App extends Component {
                 </div>
               </div>
             </section>
+            <div />
             <Slide
               wrapClass="aligncenter fadeInUp"
               background={{ img: "images/korean-class.jpg" }}
@@ -603,47 +605,48 @@ class App extends Component {
                 <strong>motivações adicionais</strong>
               </h2>
             </Slide>
-            <Motivation img="images/waymo.jpg" title="Ubiquidade da computação">
+            <Motivation
+              img={{
+                url: "images/waymo.jpg",
+                caption: "Carro autônomo da Waymo - subsidiária do Google"
+              }}
+              title="Ubiquidade da computação"
+            >
               <p>
-                Florence, Italy &mdash; <strong>.card-50</strong>
+                A computação está tomando todos os domínios da vida cotidiana.
               </p>
               <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
+                Carros autônomos e robôs investidores que leem notícias compõem
+                uma pequena amostra da dominância que a computação exerce
+                atualmente.
               </p>
               <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
+                No mundo do trabalho, um sem-número de atividades vêm sendo
+                substituídos por robôs.
               </p>
             </Motivation>
             <Motivation
-              img="images/waymo.jpg"
+              img={{ url: "images/model-free.png", caption: "" }}
               title="Relevância para a prática científica"
             >
               <p>
-                Florence, Italy &mdash; <strong>.card-50</strong>
+                Na academia, o uso de inteligência artificial tem permitido a
+                análise de um volume astronômico de dados.
               </p>
               <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
+                Esse recurso têm permitido a predição da evolução de sistemas
+                complexos, mesmo na ausência de modelos, como indica o artigo ao
+                lado, publicado em 2018.
               </p>
-              <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
-              </p>
+              <br />
+              <br />
+              <br />
+              <br />
             </Motivation>
 
             <Motivation
               img="images/waymo.jpg"
-              title=" Diálogo com centros de interesse"
+              title="Diálogo com centros de interesse"
             >
               <p>
                 Florence, Italy &mdash; <strong>.card-50</strong>
