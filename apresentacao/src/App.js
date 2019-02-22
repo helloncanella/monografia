@@ -648,16 +648,13 @@ class App extends Component {
               img="images/waymo.jpg"
               title="Diálogo com centros de interesse"
             >
-              <p
-                className="text-serif"
-                style={{ textAlign: "left", maginTop: 10 }}
-              >
+              <p className="text-serif" style={{ textAlign: "left" }}>
                 "Motivar é mudar as prioridades de uma pessoa"{" "}
                 <cite style={{ display: "inline" }}>Guy Claxton</cite>
               </p>
               <p>
                 O uso do computador viabiliza atividades com{" "}
-                <strong>conteúdo científicamente relevante</strong>, de
+                <strong>conteúdo cientificamente relevante</strong>, de
                 baixíssimo custo, que dialogam com os{" "}
                 <strong>centros de interesse</strong> dos estudantes.
               </p>
@@ -671,20 +668,17 @@ class App extends Component {
               img="images/waymo.jpg"
               title="Inversão da relação com a tecnologia"
             >
+              <p>Nativos digitais apenas consomem tecnologia.</p>
               <p>
-                Florence, Italy &mdash; <strong>.card-50</strong>
+                Apesar serem exímios usuários de novas tecnologias, as novas
+                gerações não estão familiarizadas com a idea de produzi-las.
               </p>
               <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
-              </p>
-              <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
+                Dotá-los com a capacidade para produzi-las Florence was a centre
+                of medieval European trade and finance and one of the wealthiest
+                cities of the time. It is considered the birthplace of the
+                Renaissance, and has been called "the Athens of the Middle
+                Ages".
               </p>
             </Motivation>
             <Motivation img="images/waymo.jpg" title="Contexto excelente">
