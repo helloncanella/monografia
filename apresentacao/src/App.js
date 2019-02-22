@@ -617,20 +617,20 @@ class App extends Component {
             <Motivation img="images/waymo.jpg" title="Contexto excelente">
               {/* TODO: FALAR DE PROBLEMAS ABERTOS */}
               <p>
-                Florence, Italy &mdash; <strong>.card-50</strong>
+                Pensar computacionalmente requer competências próprias da
+                atividade científica.
               </p>
 
               <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
+                Atividades com esse propósito permitem que estudantes
+                decomponham problemas em unidades menores, e também, elaborem,
+                avaliem e refinem modelos.
               </p>
+
               <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
+                Ao tratar problemas de forma abertas, essa abordagem desconstrói
+                a ideia que aprender física, por exemplo, é o mesmo que "acertar
+                uma questão".
               </p>
             </Motivation>
             <Motivation
@@ -639,6 +639,10 @@ class App extends Component {
             >
               <p>
                 Florence, Italy &mdash; <strong>.card-50</strong>
+              </p>
+              <p>
+                Ao tratar problemas de forma aberta, essa abordagem permitem que
+                alunos desenvolvam
               </p>
               <p>
                 Florence was a centre of medieval European trade and finance and
