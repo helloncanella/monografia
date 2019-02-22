@@ -409,7 +409,7 @@ class App extends Component {
             </Slide>
             <Slide slideClass="aligncenter">
               <h2>
-                <strong>pensamento computacional: a formação</strong>
+                <strong>pensamento computacional: panorama</strong>
               </h2>
             </Slide>
             <Slide>
@@ -565,7 +565,7 @@ class App extends Component {
             </Motivation>
 
             <Motivation
-              img="images/waymo.jpg"
+              img={{ url: "images/tracker.png" }}
               title="Diálogo com centros de interesse"
             >
               <p className="text-serif" style={{ textAlign: "left" }}>
@@ -585,7 +585,7 @@ class App extends Component {
               </p>
             </Motivation>
             <Motivation
-              img="images/waymo.jpg"
+              img={{ url: "images/robotica.jpg" }}
               title="Inversão da relação com a tecnologia"
             >
               <p>Nativos digitais apenas consomem tecnologia.</p>
@@ -614,7 +614,10 @@ class App extends Component {
                 </li>
               </ol>
             </Motivation>
-            <Motivation img="images/waymo.jpg" title="Contexto excelente">
+            <Motivation
+              img={{ url: "images/ct.png" }}
+              title="Contexto excelente"
+            >
               {/* TODO: FALAR DE PROBLEMAS ABERTOS */}
               <p>
                 Pensar computacionalmente requer competências próprias da
@@ -632,30 +635,14 @@ class App extends Component {
                 a ideia que aprender física, por exemplo, é o mesmo que "acertar
                 uma questão".
               </p>
-            </Motivation>
-            <Motivation
-              img="images/waymo.jpg"
-              title="Coerência com a prática científica"
-            >
-              <p>
-                Florence, Italy &mdash; <strong>.card-50</strong>
-              </p>
-              <p>
-                Ao tratar problemas de forma aberta, essa abordagem permitem que
-                alunos desenvolvam
-              </p>
-              <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
-              </p>
-              <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
-              </p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </Motivation>
           </article>
         </main>
