@@ -41,87 +41,6 @@ class App extends Component {
                 </p>
               </div>
             </Slide>
-            <section class="slide " style={{ textAlign: "left" }}>
-              <div class="wrap size-30">
-                <h3>Sumário</h3>
-                <hr />
-                <div class="toc">
-                  <ol>
-                    <li>
-                      <a href="#" title="Go to Learning to see">
-                        <span class="chapter">
-                          Aprendizagem Científica: Problemas comuns
-                        </span>
-                        <span class="toc-page">01</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#slide=3" title="Go to What is Design?">
-                        <span class="chapter">What is Design?</span>
-                        <span class="toc-page">04</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" title="Go to What is Beauty?">
-                        <span class="chapter">What is Beauty?</span>
-                        <span class="toc-page">08</span>
-                      </a>
-                      <ol>
-                        <li>
-                          <a href="#" title="Go to Harmony">
-                            <span class="chapter">Harmony</span>
-                            <span class="toc-page">12</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" title="Go to Simplicity vs. Clarity">
-                            <span class="chapter">Simplicity vs. Clarity</span>
-                            <span class="toc-page">14</span>
-                          </a>
-                        </li>
-                      </ol>
-                    </li>
-                    <li>
-                      <a href="#" title="Go to Building a Culture">
-                        <span class="chapter">Building a Culture</span>
-                        <span class="toc-page">16</span>
-                      </a>
-                      <ol>
-                        <li>
-                          <span class="chapter">Purpose</span>
-                          <span class="toc-page">17</span>
-                          <ol>
-                            <li>
-                              <span class="chapter">Valuable</span>
-                              <span class="toc-page">18</span>
-                              <ol>
-                                <li>
-                                  <span class="chapter">Easy</span>
-                                  <span class="toc-page">20</span>
-                                </li>
-                                <li>
-                                  <span class="chapter">Elegant</span>
-                                  <span class="toc-page">21</span>
-                                </li>
-                              </ol>
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <span class="chapter">Principles</span>
-                          <span class="toc-page">24</span>
-                        </li>
-                      </ol>
-                    </li>
-                    <li>
-                      <span class="chapter">Epilogue</span>
-                      <span class="toc-page">40</span>
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </section>
-            <div />
             <Slide
               wrapClass="aligncenter fadeInUp"
               background={{ img: "images/korean-class.jpg" }}
@@ -189,16 +108,17 @@ class App extends Component {
                 <h3>
                   <strong>Essência dos problemas</strong>
                 </h3>
-                <p className="text-intro">
+                {/* <p className="text-intro">
                   Apesar de serem multifatoriais, os problemas apresentados se
                   originam na forma como disciplinas científicas são ensinadas,
                   e a aprendizagem delas avaliada.
-                </p>
+                </p> */}
                 <p>
-                  O modelo avaliativo vigente, por exemplo, desestimula a
-                  aprendizagem significativa ao privilegiar a reprodução de
-                  "respostas corretas", induzindo o estudante a agir de forma
-                  autômata.
+                  O modelo de ensino e avaliação vigente, por exemplo,
+                  desestimula a <strong>aprendizagem significativa </strong> ao
+                  privilegiar a reprodução de{" "}
+                  <strong>"respostas corretas</strong>", induzindo o estudante a{" "}
+                  <strong>agir como um autômato</strong>.
                 </p>
               </div>
             </Slide>
@@ -674,12 +594,25 @@ class App extends Component {
                 gerações não estão familiarizadas com a idea de produzi-las.
               </p>
               <p>
-                Dotá-los com a capacidade para produzi-las Florence was a centre
-                of medieval European trade and finance and one of the wealthiest
-                cities of the time. It is considered the birthplace of the
-                Renaissance, and has been called "the Athens of the Middle
-                Ages".
+                Dotá-los com a capacidade criativa permitirá o desenvolvimento
+                de competências tais como:
               </p>
+              <ol>
+                <li>
+                  Pensar em termos sistêmicos{" "}
+                  <cite style={{ display: "inline" }}>
+                    "o todo não é soma das partes"
+                  </cite>
+                </li>
+                <li>Estruturar as etapas de um projeto</li>
+                <li>
+                  Experimentar novas ideias - <strong>prototipagem</strong>
+                </li>
+                <li>
+                  Decompor um problema em partes menores -{" "}
+                  <strong>abstração</strong>
+                </li>
+              </ol>
             </Motivation>
             <Motivation img="images/waymo.jpg" title="Contexto excelente">
               {/* TODO: FALAR DE PROBLEMAS ABERTOS */}
