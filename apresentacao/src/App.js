@@ -648,20 +648,23 @@ class App extends Component {
               img="images/waymo.jpg"
               title="Diálogo com centros de interesse"
             >
-              <p>
-                Florence, Italy &mdash; <strong>.card-50</strong>
+              <p
+                className="text-serif"
+                style={{ textAlign: "left", maginTop: 10 }}
+              >
+                "Motivar é mudar as prioridades de uma pessoa"{" "}
+                <cite style={{ display: "inline" }}>Guy Claxton</cite>
               </p>
               <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
+                O uso do computador viabiliza atividades com{" "}
+                <strong>conteúdo científicamente relevante</strong>, de
+                baixíssimo custo, que dialogam com os{" "}
+                <strong>centros de interesse</strong> dos estudantes.
               </p>
               <p>
-                Florence was a centre of medieval European trade and finance and
-                one of the wealthiest cities of the time. It is considered the
-                birthplace of the Renaissance, and has been called "the Athens
-                of the Middle Ages".
+                Tomar como ponto de partida suas preferências é uma estratégia
+                essencial para atrair interesse, engajar e permitir que a{" "}
+                <strong>aprendizagem significativa </strong> se desenvolva.
               </p>
             </Motivation>
             <Motivation
