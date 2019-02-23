@@ -565,6 +565,18 @@ class App extends Component {
                   )
                 })}
               </ul>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <Fonte
+                info={[
+                  `LEE, I. et al. <i>Computational thinking for youth in practice.</i> ACM Inroads, v. 2, n. 1, p. 32, 2011.`,
+                  `BARR, V.; STEPHENSON, C. <i>Bringing computational thinking to K-12.</i> ACM Inroads, v. 2, n. 1`
+                ]}
+                small
+              />
             </Slide>
 
             <Slide slideClass="aligncenter">
