@@ -5,6 +5,8 @@ import "webslides/static/js/svg-icons.js"
 import Slide from "./components/Slide"
 import AlgorithmExample from "./components/AlgorigthmExample"
 import Motivation from "./components/Motivation"
+import ActivityExample from "./components/ActivityExample"
+import Fonte from "./components/Fonte"
 
 /* global WebSlides */
 class App extends Component {
@@ -57,7 +59,7 @@ class App extends Component {
                 ciências.
               </p>
             </Slide>
-            <Slide wrapClass="aligncenter size-60">
+            <Slide wrapClass="size-80">
               <h2>
                 <strong>Problemas recorrentes</strong>
               </h2>
@@ -102,6 +104,12 @@ class App extends Component {
                   </li>
                 </ul>
               </div>
+              <br />
+              <br />
+              <br />
+              <Fonte
+                info={`POZO, J.; CRESPO, M. ángel G. <i>Aprender y enseñar ciencia : del conocimiento cotidiano al conocimiento científico.</i> [S.l.: s.n.], 1998.`}
+              />
             </Slide>
             <Slide wrapClass="alignleft">
               <div className="content-left">
@@ -235,11 +243,11 @@ class App extends Component {
                     <h2>01. ser uma sequencia de passos que leve à solução</h2>
                   </li>
                   <li>
-                    <div class="process step-2" style={{ top: 24 }} />
+                    <div className="process step-2" style={{ top: 24 }} />
                     <h2>02. ser um processo finito</h2>
                   </li>
                   <li>
-                    <div class="process step-3" style={{ top: 24 }} />
+                    <div className="process step-3" style={{ top: 24 }} />
                     <h2>03. resolver qualquer instância do problema</h2>
                   </li>
                 </ul>
@@ -683,6 +691,13 @@ class App extends Component {
               <br />
               <br />
             </Motivation>
+            <Slide wrapClass="aligncenter">
+              <h2>
+                <strong>um exemplo</strong>
+              </h2>
+            </Slide>
+
+            <ActivityExample />
           </article>
         </main>
       </div>
