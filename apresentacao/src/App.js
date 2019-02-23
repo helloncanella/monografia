@@ -43,6 +43,27 @@ class App extends Component {
                 </p>
               </div>
             </Slide>
+            <Slide>
+              <div className="content-left">
+                <h2>
+                  <strong>Tópicos</strong>
+                </h2>
+                <br />
+                <br />
+                <p>
+                  <ol>
+                    {[
+                      `Enumerar problemas comuns à educação científica.`,
+                      `Apresentar pensamento computacional.`,
+                      `Demonstrar como esse conceito tem favorecido a aprendizagem científica.`,
+                      `Exemplo de atividade.`
+                    ].map(i => (
+                      <li style={{ marginBottom: 20 }}>{i}</li>
+                    ))}
+                  </ol>
+                </p>
+              </div>
+            </Slide>
             <Slide
               wrapClass="aligncenter fadeInUp"
               background={{ img: "images/korean-class.jpg" }}
