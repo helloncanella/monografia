@@ -412,13 +412,16 @@ class App extends Component {
                 <strong>pensamento computacional: panorama</strong>
               </h2>
             </Slide>
-            <Slide>
-              <div className="content-left">
-                <h2>TODO: </h2>
-                <h3>explicar como se forma</h3>
-              </div>
-              <div className="content-right">
-                <p>Espaço para imagem</p>
+            <Slide style={{ paddingTop: 0, paddingBottom: 0 }}>
+              <div className="grid vertical-align">
+                <div className="column">
+                  <h2>Panoroma</h2>
+                </div>
+                <div className="column">
+                  <figure>
+                    <img src="images/overview.png" alt="" />
+                  </figure>
+                </div>
               </div>
             </Slide>
 

@@ -10,7 +10,7 @@ export default function Slide(props) {
   const content = props.children || null
 
   return (
-    <section className={slideClass}>
+    <section className={slideClass} style={props.style || {}}>
       {props.background && (
         <span
           className={`background ${props.background.class || "dark"}`}
