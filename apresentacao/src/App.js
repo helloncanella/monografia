@@ -422,6 +422,12 @@ class App extends Component {
                 `Problema computacional e algoritmo compõe assim uma representação, uma <strong>abstração</strong> do problema original. `,
 
                 `A <strong>automação</strong> é feita com a ajuda de uma linguagem de programação ou mapeamento dos passos nos recursos de um software pronto. `
+              ],
+              [
+                `
+                A automação, por sua vez, permite que novos aspectos do problema sejam descobertos, o que pode levar a mais perguntas.
+              `,
+                `O ciclo é assim reiniciado.`
               ]
             ].map((reasons, i) => {
               return (
@@ -623,12 +629,12 @@ class App extends Component {
             >
               <p>Nativos digitais apenas consomem tecnologia.</p>
               <p>
-                Apesar serem exímios usuários de novas tecnologias, as novas
+                Apesar serem exímios usuários das novas tecnologias, as novas
                 gerações não estão familiarizadas com a idea de produzi-las.
               </p>
               <p>
-                Dotá-los com a capacidade criativa permitirá o desenvolvimento
-                de competências tais como:
+                Dotá-los com essa capacidade criativa permitirá o
+                desenvolvimento de diversas competências, tais como:
               </p>
               <ol>
                 <li>
