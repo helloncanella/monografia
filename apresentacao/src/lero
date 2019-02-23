@@ -1,3 +1,5 @@
+ A automação é feita com a ajuda de linguagem de programação
+                    ou mapeamento dos passos nos recursos de um software pronto.
 import React, { Component } from "react"
 import "./App.css"
 import "webslides/static/js/webslides.js"
@@ -414,14 +416,26 @@ class App extends Component {
             </Slide>
             {[
               [
-                `<strong>Problemas do mundo real</strong> necessitam ser expressos como <strong>problemas computacionais</strong>, para receberem tratamento computacional.`,
+                `Problemas do mundo real necessitam ser expressos como
+                    problemas computacionais, para receberem tratamento
+                    computacional.`,
+                `
 
-                `A resolução necessita então ser sequenciada - expressa em um <strong>algoritmo</strong>. `
+                    A resolução necessita então ser sequenciada - expressa em um
+                    algoritmo.
+`
               ],
               [
-                `Problema computacional e algoritmo compõe assim uma representação, uma <strong>abstração</strong> do problema original. `,
-
-                `A <strong>automação</strong> é feita com a ajuda de uma linguagem de programação ou mapeamento dos passos nos recursos de um software pronto. `
+                `
+                    Problema computacional e algoritmo compõe assim uma
+                    representação, uma abstração do problema original.
+              
+              `,
+                `
+              
+                    Problema computacional e algoritmo compõe assim uma
+                    representação, uma abstração do problema original.
+              `
               ]
             ].map((reasons, i) => {
               return (
@@ -435,12 +449,7 @@ class App extends Component {
                         </h2>
                       )}
                       {reasons.map(r => {
-                        return (
-                          <p
-                            style={{ fontSize: "2.4rem" }}
-                            dangerouslySetInnerHTML={{ __html: r }}
-                          />
-                        )
+                        return <p style={{ fontSize: "2.4rem" }}>{r}</p>
                       })}
                     </div>
                     <div className="content-right">
