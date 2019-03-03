@@ -5,32 +5,30 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{16}{chapter*.16}
+\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{11}{chapter*.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Computadores e a pr\IeC {\'a}tica cient\IeC {\'\i }fica}}{19}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Computadores e a pr\IeC {\'a}tica cient\IeC {\'\i }fica}}{14}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Pensamento computacional}}{24}{chapter.2}
-\contentsline {section}{\numberline {2.1}Algoritmos}{24}{section.2.1}
-\contentsline {section}{\numberline {2.2}Problema Computacional}{26}{section.2.2}
-\contentsline {section}{\numberline {2.3}Abstra\IeC {\c c}\IeC {\~a}o}{26}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Modelos e m\IeC {\'o}dulos: duas possibilidade de abstra\IeC {\c c}\IeC {\~a}o}{28}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Um apanhado geral}{32}{section.2.4}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Pensamento computacional}}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Algoritmos}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Problema Computacional}{21}{section.2.2}
+\contentsline {section}{\numberline {2.3}Abstra\IeC {\c c}\IeC {\~a}o}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Modelos e m\IeC {\'o}dulos: duas possibilidade de abstra\IeC {\c c}\IeC {\~a}o}{23}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Um apanhado geral}{27}{section.2.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Implica\IeC {\c c}\IeC {\~o}es para aprendizagem cient\IeC {\'\i }fica}}{34}{chapter.3}
-\contentsline {section}{\numberline {3.1}Significado do pensamento computacional no contexto da sala de aula}{37}{section.3.1}
-\contentsline {section}{\numberline {3.2}A cria\IeC {\c c}\IeC {\~a}o de uma taxonomia para o pensamento computacional}{40}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Pr\IeC {\'a}ticas relacionadas a dados}{48}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Pr\IeC {\'a}ticas de simula\IeC {\c c}\IeC {\~a}o e modelagem}{49}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Pr\IeC {\'a}tica de resolu\IeC {\c c}\IeC {\~a}o de problemas computacionais}{53}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Pr\IeC {\'a}ticas de pensamento sist\IeC {\^e}mico}{56}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Exemplos de atividades}{59}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}P\IeC {\'a}ssaros raivosos e a constante gravitacional}{59}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Modelagem do bombeamento em um pneu}{60}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Alunos faltosos como contexto de um modelo epidemiol\IeC {\'o}gico}{64}{subsection.3.3.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Implica\IeC {\c c}\IeC {\~o}es para aprendizagem cient\IeC {\'\i }fica}}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Significado do pensamento computacional no contexto da sala de aula}{32}{section.3.1}
+\contentsline {section}{\numberline {3.2}A cria\IeC {\c c}\IeC {\~a}o de uma taxonomia para o pensamento computacional}{35}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Pr\IeC {\'a}ticas relacionadas a dados}{43}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Pr\IeC {\'a}ticas de simula\IeC {\c c}\IeC {\~a}o e modelagem}{44}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Pr\IeC {\'a}tica de resolu\IeC {\c c}\IeC {\~a}o de problemas computacionais}{48}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Pr\IeC {\'a}ticas de pensamento sist\IeC {\^e}mico}{51}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Exemplos de atividades}{54}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}P\IeC {\'a}ssaros raivosos e a constante gravitacional}{54}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Modelagem do bombeamento em um pneu}{55}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Alunos faltosos como contexto de um modelo epidemiol\IeC {\'o}gico}{59}{subsection.3.3.3}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Conclus\IeC {\~a}o}{67}{chapter*.46}
+\contentsline {chapter}{Conclus\IeC {\~a}o}{62}{chapter*.38}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{69}{section*.48}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{64}{section*.40}
