@@ -40,45 +40,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 29 entries,
+You've used 32 entries,
             6714 wiz_defined-function locations,
-            1406 strings with 15437 characters,
-and the built_in function-call counts, 47857 in all, are:
-= -- 5959
+            1422 strings with 15770 characters,
+and the built_in function-call counts, 49175 in all, are:
+= -- 6075
 > -- 627
 < -- 1459
 + -- 1703
 - -- 195
-* -- 2821
-:= -- 5821
-add.period$ -- 120
-call.type$ -- 29
-change.case$ -- 240
-chr.to.int$ -- 50
-cite$ -- 28
-duplicate$ -- 5283
-empty$ -- 1659
+* -- 2907
+:= -- 5949
+add.period$ -- 133
+call.type$ -- 32
+change.case$ -- 259
+chr.to.int$ -- 53
+cite$ -- 31
+duplicate$ -- 5364
+empty$ -- 1831
 format.name$ -- 931
-if$ -- 9252
+if$ -- 9625
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 498
-newline$ -- 157
+missing$ -- 541
+newline$ -- 172
 num.names$ -- 135
-pop$ -- 660
+pop$ -- 696
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 111
 quote$ -- 0
-skip$ -- 5363
+skip$ -- 5444
 stack$ -- 1
-substring$ -- 2184
-swap$ -- 1883
+substring$ -- 2237
+swap$ -- 1918
 text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 204
+while$ -- 207
 width$ -- 0
-write$ -- 451
+write$ -- 497
 (There were 7 warnings)
