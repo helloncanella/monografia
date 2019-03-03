@@ -32,3 +32,4 @@
 \contentsline {chapter}{Conclus\IeC {\~a}o}{62}{chapter*.38}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{64}{section*.40}
+\vspace {\cftbeforechapterskip }
