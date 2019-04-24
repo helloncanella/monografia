@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/physyk/abntex2-trabalho-academico/issues"
   },
-  "homepage": "https://github.com/physyk/abntex2-trabalho-academico#readme",
+  "homepage": "https://github.com/physyk",
   "dependencies": {
     "moment": "^2.22.2"
   }
