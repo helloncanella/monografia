@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/physyk/abntex2-trabalho-academico.git"
+    "url": "git+https://github.com/helloncanella/monografia.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/physyk/abntex2-trabalho-academico/issues"
+    "url": "https://github.com/helloncanella/monografia.git/issues"
   },
-  "homepage": "https://github.com/physyk",
+  "homepage": "https://helloncanella.github.io/monografia/",
   "dependencies": {
     "moment": "^2.22.2"
   }
